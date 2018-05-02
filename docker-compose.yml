@@ -1,0 +1,97 @@
+version: "3"
+
+services:
+  postgresql_sonar:
+    image: postgres:10.3
+    container_name: postgresql_sonar
+    ports:
+      - "5432:5432"
+    networks:
+      - ci_network
+    environment:
+      - POSTGRES_DB=sonarqube
+      - POSTGRES_USER=sonarqube
+      - POSTGRES_PASSWORD=sonarqube
+    volumes:
+      - postgresql_sonar:/var/lib/postgresql
+      - postgresql_data_sonar:/var/lib/postgresql/data
+  postgresql_artifactory:
+    image: postgres:10.3
+    container_name: postgresql_artifactory
+    ports:
+      - "5431:5431"
+    networks:
+      - ci_network
+    environment:
+      - PGPORT=5431
+      - POSTGRES_DB=artifactory
+      - POSTGRES_USER=artifactory
+      - POSTGRES_PASSWORD=artifactory
+    volumes:
+      - postgresql_artifactory:/var/lib/postgresql
+      - postgresql_data_artifactory:/var/lib/postgresql/data
+  sonarqube:
+    image: sonarqube:6.7.3
+    container_name: sonarqube
+    depends_on:
+      - postgresql_sonar
+    ports:
+      - "9000:9000"
+    networks:
+      - ci_network
+    environment:
+      - SONARQUBE_JDBC_URL=jdbc:postgresql://postgresql_sonar:5432/sonarqube
+      - SONARQUBE_JDBC_USERNAME=integration
+      - SONARQUBE_JDBC_PASSWORD=integration
+    volumes:
+      - sonarqube_conf:/opt/sonarqube/conf
+      - sonarqube_data:/opt/sonarqube/data
+      - sonarqube_extensions:/opt/sonarqube/extensions
+      - sonarqube_bundled-plugins:/opt/sonarqube/lib/bundled-plugins
+  jenkins:
+    image: jenkins/jenkins:2.107.2
+    container_name: jenkins
+    depends_on:
+      - sonarqube
+      - artifactory
+    networks:
+      - ci_network
+    ports: 
+      - "5000:5000"
+      - "8080:8080"
+    volumes:
+     - jenkins_conf:/var/jenkins_home
+  artifactory:
+    image: docker.bintray.io/jfrog/artifactory-pro:5.10.4
+    container_name: artifactory
+    depends_on:
+      - postgresql_artifactory
+    environment:
+      - DB_TYPE=postgresql
+      - DB_HOST=postgresql_artifactory
+      - DB_PORT=5431
+      - DB_USER=artifactory
+      - DB_PASSWORD=artifactory
+    networks:
+      - ci_network
+    ports:
+      - "8081:8081"
+    volumes:
+      - artifactory_data:/var/opt/jfrog/artifactory
+
+
+networks:
+  ci_network:
+    driver: bridge
+
+volumes:
+  sonarqube_conf:
+  sonarqube_data:
+  sonarqube_extensions:
+  sonarqube_bundled-plugins:
+  postgresql_sonar:
+  postgresql_data_sonar:
+  postgresql_artifactory:
+  postgresql_data_artifactory:
+  jenkins_conf:
+  artifactory_data:
