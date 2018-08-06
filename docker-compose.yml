@@ -41,8 +41,8 @@ services:
       - ci_network
     environment:
       - SONARQUBE_JDBC_URL=jdbc:postgresql://postgresql_sonar:5432/sonarqube
-      - SONARQUBE_JDBC_USERNAME=integration
-      - SONARQUBE_JDBC_PASSWORD=integration
+      - SONARQUBE_JDBC_USERNAME=sonarqube
+      - SONARQUBE_JDBC_PASSWORD=sonarqube
     volumes:
       - sonarqube_conf:/opt/sonarqube/conf
       - sonarqube_data:/opt/sonarqube/data
@@ -78,7 +78,19 @@ services:
       - "8081:8081"
     volumes:
       - artifactory_data:/var/opt/jfrog/artifactory
-
+  slave:
+    image: ci/slave_mvn:latest
+    container_name: slave
+    depends_on: 
+      - jenkins
+    networks: 
+      - ci_network
+    ports: 
+      - "80:80"
+      - "24:22"
+    volumes: 
+      - slave_data:/jenkins  
+      - slave_grupos:/sys/fs/cgroup    
 
 networks:
   ci_network:
@@ -95,3 +107,5 @@ volumes:
   postgresql_data_artifactory:
   jenkins_conf:
   artifactory_data:
+  slave_data:
+  slave_grupos:
