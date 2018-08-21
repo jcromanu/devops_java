@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-RUN apt-get update && apt-get install -y openssh-server
+RUN apt-get update  && apt-get install -y openssh-server
 RUN mkdir /var/run/sshd
 RUN echo 'root:screencast' | chpasswd  && \
     useradd jenkins -U -s /bin/bash && \
@@ -9,7 +9,8 @@ RUN apt-get install openjdk-8-jdk -y && \
     apt-get install unzip -y && \
     apt-get install apache2 -y && \
     apt-get install sudo -y && \
-    apt-get install nmap -y
+    apt-get install nmap -y && \
+    apt-get install git -y 
 COPY ["sonar-scanner-cli-3.2.0.1227-linux.zip","apache-maven-3.5.4-bin.zip","/opt/"]
 RUN  unzip /opt/apache-maven-3.5.4-bin.zip -d /opt \
      && unzip /opt/sonar-scanner-cli-3.2.0.1227-linux.zip -d /opt \
@@ -22,7 +23,9 @@ RUN sudo adduser jenkins sudo && \
     sudo mkdir /jenkins && \
     sudo mkdir /home/jenkins && \
     sudo chmod -R 777 /jenkins && \
-    sudo chmod -R 777 /home/jenkins
+    sudo chmod -R 777 /home/jenkins && \
+    export PATH="/opt/apache-maven-3.5.4/bin:/opt/sonar-scanner-3.2.0.1227-linux/bin:$PATH"
+ENV PATH="/opt/apache-maven-3.5.4/bin:/opt/sonar-scanner-3.2.0.1227-linux/bin:$PATH"
 # SSH login fix. Otherwise user is kicked off after login
 RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' -i /etc/pam.d/sshd
 ENV NOTVISIBLE "in users profile"

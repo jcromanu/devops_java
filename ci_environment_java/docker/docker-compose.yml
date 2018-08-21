@@ -79,7 +79,7 @@ services:
     volumes:
       - artifactory_data:/var/opt/jfrog/artifactory
   slave:
-    image: ci/slave_mvn:latest
+    image: ci/mvn_slave:latest
     container_name: slave
     depends_on: 
       - jenkins
