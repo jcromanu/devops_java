@@ -83,6 +83,7 @@ services:
     container_name: slave
     depends_on: 
       - jenkins
+      - was
     networks: 
       - ci_network
     ports: 
@@ -91,7 +92,17 @@ services:
     volumes: 
       - slave_data:/jenkins  
       - slave_grupos:/sys/fs/cgroup    
-
+  was:
+      image: ibmcom/websphere-traditional:8.5.5.12-profile-monitored-jsf
+      container_name: was
+      networks:
+        - ci_network
+      environment:
+        - UPDATE_HOSTNAME=true
+      ports:
+        - "9043:9043"
+        - "9443:9443"
+        - "8879:8879"
 networks:
   ci_network:
     driver: bridge
