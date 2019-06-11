@@ -1,0 +1,3 @@
+FROM ubuntu:16.04
+#COPY ["ibm-java-sdk-8.0-5","messages","com.ibm.ws.admin.client_8.5.0.jar","com.ibm.ws.security.crypto.jar","/opt/"]
+CMD ["/usr/sbin/sshd", "-D"]

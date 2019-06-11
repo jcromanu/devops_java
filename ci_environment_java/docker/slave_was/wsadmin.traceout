@@ -1,0 +1,1534 @@
+************ Start Display Current Environment ************
+Host Operating System is Linux, version 4.9.93-boot2docker
+Java version = 1.8.0_151, Java Runtime Version = 8.0.5.6 - pxa6480sr5fp6-20171124_02(SR5 FP6), Java Compiler = j9jit29, Java VM name = IBM J9 VM
+was.install.root = /MyThinClient
+user.install.root = /MyThinClient
+Java Home = /MyThinClient/ibm-java-sdk-8.0-5/jre
+Classpath = /MyThinClient/properties:/MyThinClient/com.ibm.ws.admin.client_8.5.0.jar:/MyThinClient/com.ibm.ws.security.crypto.jar
+Java Library path = /MyThinClient/ibm-java-sdk-8.0-5/jre/lib/amd64/compressedrefs:/MyThinClient/ibm-java-sdk-8.0-5/jre/lib/amd64:/usr/lib64:/usr/lib
+Orb Version = IBM Java ORB build orb80-20171023.00
+Max file descriptor count = 1048576
+Current trace specification = *=info:com.ibm.*=all
+************* End Display Current Environment *************
+[9/7/18 17:56:23:320 UTC] 00000001 WsLoggerConfi 2 com.ibm.ws.logging.WsLoggerConfigurator getCurrentLoggingConfiguration Getting for ccl of: sun.misc.Launcher$AppClassLoader@f6f3ed8 w/hashSz of: 1
+[9/7/18 17:56:22:463 UTC] 00000001 ManagerAdmin  I   TRAS0017I: The startup trace state is *=info:com.ibm.*=all.
+[9/7/18 17:56:23:367 UTC] 00000001 AbstractShell >  setJythonPath Entry
+[9/7/18 17:56:23:367 UTC] 00000001 AbstractShell 3   system class path: :/MyThinClient/optionalLibraries/jython/jython.jar:/MyThinClient/optionalLibraries/jython/Lib
+[9/7/18 17:56:23:367 UTC] 00000001 AbstractShell <  setJythonPath Exit
+[9/7/18 17:56:23:368 UTC] 00000001 AbstractShell >  determineLanguage Entry
+[9/7/18 17:56:23:379 UTC] 00000001 AbstractShell <  determineLanguage Exit
+[9/7/18 17:56:23:380 UTC] 00000001 AbstractShell >  setClasspath Entry
+[9/7/18 17:56:23:380 UTC] 00000001 AbstractShell >  getPluginPath Entry
+[9/7/18 17:56:23:380 UTC] 00000001 AbstractShell >  searchPlugins Entry
+[9/7/18 17:56:23:381 UTC] 00000001 AbstractShell <  getPluginPath Exit
+                                 ""
+[9/7/18 17:56:23:381 UTC] 00000001 AbstractShell <  setClasspath Exit
+[9/7/18 17:56:23:381 UTC] 00000001 AbstractShell >  setupConnectionType Entry
+[9/7/18 17:56:23:381 UTC] 00000001 AbstractShell <  setupConnectionType Exit
+[9/7/18 17:56:23:384 UTC] 00000001 AbstractShell >  logPropertiesFilesLoaded Entry
+[9/7/18 17:56:23:384 UTC] 00000001 AbstractShell <  logPropertiesFilesLoaded Exit
+[9/7/18 17:56:24:182 UTC] 00000001 AbstractShell >  createControlClient Entry
+[9/7/18 17:56:24:199 UTC] 00000001 CommonScripti >  CommonScriptingObject ctor Entry
+[9/7/18 17:56:24:199 UTC] 00000001 AbstractShell >  getLangUtils Entry
+[9/7/18 17:56:24:199 UTC] 00000001 AbstractShell <  getLangUtils Exit
+[9/7/18 17:56:24:199 UTC] 00000001 CommonScripti >  connectToAdminService Entry
+[9/7/18 17:56:24:199 UTC] 00000001 AbstractShell >  setLastException Entry
+[9/7/18 17:56:24:199 UTC] 00000001 AbstractShell <  setLastException Exit
+[9/7/18 17:56:24:206 UTC] 00000001 AdminClientFa >  createAdminClient Entry
+[9/7/18 17:56:24:207 UTC] 00000001 AdminClientFa 3   Properties passed to createAdminClient
+[9/7/18 17:56:24:211 UTC] 00000001 AdminClientFa 3   Client properties: 
+[9/7/18 17:56:24:211 UTC] 00000001 AdminClientFa 3   > port=8880
+[9/7/18 17:56:24:212 UTC] 00000001 AdminClientFa 3   > type=SOAP
+[9/7/18 17:56:24:212 UTC] 00000001 AdminClientFa 3   > host=was
+[9/7/18 17:56:24:213 UTC] 00000001 AdminClientFa >  createAdminClientPrivileged Entry
+[9/7/18 17:56:24:213 UTC] 00000001 AdminClientFa >  getCacheKey Entry
+[9/7/18 17:56:24:218 UTC] 00000001 DebugUtils    >  createPropertiesMaskPlainTextPassword Entry
+[9/7/18 17:56:24:218 UTC] 00000001 DebugUtils    <  createPropertiesMaskPlainTextPassword Exit
+[9/7/18 17:56:24:222 UTC] 00000001 AdminClientFa <  getCacheKey Exit
+                                 {port=8880, securityEnabled=false, type=SOAP, host=172.18.0.3}
+[9/7/18 17:56:24:224 UTC] 00000001 AdminClientFa >  loadPropertiesFromFile Entry
+                                 /MyThinClient/properties/soap.client.props
+[9/7/18 17:56:24:225 UTC] 00000001 AdminClientFa >  decodePasswords Entry
+[9/7/18 17:56:24:258 UTC] 00000001 KeyStoreManag >  getHostName Entry
+[9/7/18 17:56:24:259 UTC] 00000001 KeyStoreManag <  getHostName -> d599fd33b327 Exit
+[9/7/18 17:56:24:262 UTC] 00000001 JSSEProviderF >  getInstance: null Entry
+[9/7/18 17:56:24:262 UTC] 00000001 JSSEProviderF >  getProviderFromProviderList Entry
+[9/7/18 17:56:24:262 UTC] 00000001 JSSEProviderF 3   Provider name [0]: IBMJSSE2
+[9/7/18 17:56:24:262 UTC] 00000001 JSSEProviderF <  getProviderFromProviderList -> IBMJSSE2 Exit
+[9/7/18 17:56:24:263 UTC] 00000001 FIPSManager   >  isFIPSEnabled Entry
+[9/7/18 17:56:24:263 UTC] 00000001 FIPSManager   3   FIPS parameters are not initialized yet.
+[9/7/18 17:56:24:263 UTC] 00000001 FIPSManager   <  isFIPSEnabled -> false Exit
+[9/7/18 17:56:24:263 UTC] 00000001 JSSEProviderF 3   cachedProvider is null, proceeding to determine the provider.
+[9/7/18 17:56:24:264 UTC] 00000001 JSSEProviderF 3   Provider name [0]: IBMJSSE2
+[9/7/18 17:56:24:272 UTC] 00000001 FIPSManager   >  isFIPSEnabled Entry
+[9/7/18 17:56:24:272 UTC] 00000001 FIPSManager   3   FIPS parameters are not initialized yet.
+[9/7/18 17:56:24:273 UTC] 00000001 FIPSManager   <  isFIPSEnabled -> false Exit
+[9/7/18 17:56:24:273 UTC] 00000001 FIPSManager   >  getFipsLevel Entry
+[9/7/18 17:56:24:273 UTC] 00000001 FIPSManager   <  getFipsLevel -> false Exit
+[9/7/18 17:56:24:273 UTC] 00000001 FIPSManager   >  getSuiteBLevel Entry
+[9/7/18 17:56:24:273 UTC] 00000001 FIPSManager   <  getSuiteBLevel ->  Exit
+[9/7/18 17:56:24:274 UTC] 00000001 FIPSUtils     >  isFips140_2Enabled Entry
+[9/7/18 17:56:24:274 UTC] 00000001 FIPSUtils     >  getFipsSecurityMode fipsEnabled=false fipsLevel= suiteBLevel= Entry
+[9/7/18 17:56:24:277 UTC] 00000001 FIPSUtils     <  initFipsecurityMode Exit
+                                 No FIPS property found
+[9/7/18 17:56:24:277 UTC] 00000001 FIPSUtils     >  isFips140_2Enabled Entry
+                                 false
+[9/7/18 17:56:24:278 UTC] 00000001 AbstractJSSEP >  registerPackage -> com.ibm.net.ssl.www2.protocol Entry
+[9/7/18 17:56:24:279 UTC] 00000001 AbstractJSSEP <  registerPackage Exit
+[9/7/18 17:56:24:279 UTC] 00000001 AbstractJSSEP >  addHandlers Entry
+                                 com.ibm.net.ssl.www2.protocol
+[9/7/18 17:56:24:279 UTC] 00000001 AbstractJSSEP 3   JVM System property:com.ibm.websphere.ssl.provider.create.https.handler is set to true
+[9/7/18 17:56:24:279 UTC] 00000001 AbstractJSSEP 3   createHttpsURLHandler:true
+[9/7/18 17:56:24:280 UTC] 00000001 ServerStatusH 3   isRunningInServerMode=false
+[9/7/18 17:56:24:280 UTC] 00000001 AbstractJSSEP 3   com.ibm.websphere.ssl.provider.overwrite from JVM property=null
+[9/7/18 17:56:24:280 UTC] 00000001 AbstractJSSEP >  setDefaultSocketFactories Entry
+[9/7/18 17:56:24:280 UTC] 00000001 AbstractJSSEP 3   Original SSLSocketFactory: null
+Original SSLServerSocketFactory: null
+[9/7/18 17:56:24:281 UTC] 00000001 AbstractJSSEP 3   Default SSLSocketFactoryClass isn't set, try to load WebSphere SSLSocketFactory
+[9/7/18 17:56:24:281 UTC] 00000001 AbstractJSSEP >  isClassAvaiable Entry
+                                 com.ibm.websphere.ssl.protocol.SSLSocketFactory
+[9/7/18 17:56:24:281 UTC] 00000001 AbstractJSSEP 3   isClassAvailable
+                                 Unable to load class "com.ibm.websphere.ssl.protocol.SSLSocketFactory".
+[9/7/18 17:56:24:281 UTC] 00000001 AbstractJSSEP <  isClassAvaiable Exit
+                                 false
+[9/7/18 17:56:24:282 UTC] 00000001 AbstractJSSEP 3   IBM SSLSocketFactory doesn't exist, use current setting
+[9/7/18 17:56:24:284 UTC] 00000001 AbstractJSSEP 3   Default SSLServerSocketFactoryClass isn't set, try to load WebSphere SSLServerSocketFactory
+[9/7/18 17:56:24:284 UTC] 00000001 AbstractJSSEP >  isClassAvaiable Entry
+                                 com.ibm.websphere.ssl.protocol.SSLServerSocketFactory
+[9/7/18 17:56:24:285 UTC] 00000001 AbstractJSSEP 3   isClassAvailable
+                                 Unable to load class "com.ibm.websphere.ssl.protocol.SSLServerSocketFactory".
+[9/7/18 17:56:24:285 UTC] 00000001 AbstractJSSEP <  isClassAvaiable Exit
+                                 false
+[9/7/18 17:56:24:285 UTC] 00000001 AbstractJSSEP 3   IBM SSLServerSocketFactory doesn't exist, use current setting
+[9/7/18 17:56:24:285 UTC] 00000001 AbstractJSSEP <  setDefaultSocketFactories:
+Current SSLSocketFactory: null
+Current SSLServerSocketFactory: null Exit
+[9/7/18 17:56:24:287 UTC] 00000001 URLHandlerFac >  URLHandlerFactory ctor Entry
+[9/7/18 17:56:24:287 UTC] 00000001 URLHandlerFac <  URLHandlerFactory ctor Exit
+[9/7/18 17:56:24:287 UTC] 00000001 URLHandlerFac >  queryProvider Entry
+[9/7/18 17:56:24:287 UTC] 00000001 URLHandlerFac <  queryProvider Exit
+[9/7/18 17:56:24:288 UTC] 00000001 AbstractJSSEP 3   Adding handler: com.ibm.net.ssl.www2.protocol.https.Handler
+[9/7/18 17:56:24:288 UTC] 00000001 StreamHandler >  addProvider Entry
+                                 https
+                                 com.ibm.net.ssl.www2.protocol.https.Handler
+[9/7/18 17:56:24:288 UTC] 00000001 StreamHandler >  addProvider Entry
+                                 https
+                                 com.ibm.net.ssl.www2.protocol.https.Handler
+                                 <null>
+[9/7/18 17:56:24:288 UTC] 00000001 StreamHandler 3   registering provider: https classpath: null
+[9/7/18 17:56:24:288 UTC] 00000001 URLHandlerFac >  registerProvider null https com.ibm.net.ssl.www2.protocol.https.Handler null Entry
+[9/7/18 17:56:24:297 UTC] 00000001 URLHandlerFac <  registerProvider Exit
+[9/7/18 17:56:24:298 UTC] 00000001 StreamHandler <  addProvider Exit
+[9/7/18 17:56:24:298 UTC] 00000001 StreamHandler <  addProvider Exit
+                                 https
+                                 com.ibm.net.ssl.www2.protocol.https.Handler
+[9/7/18 17:56:24:298 UTC] 00000001 AbstractJSSEP <  addHandlers Exit
+[9/7/18 17:56:24:298 UTC] 00000001 JSSEProviderF 3   Provider name [1]: IBMJCE
+[9/7/18 17:56:24:298 UTC] 00000001 JSSEProviderF 3   Provider name [2]: IBMJGSSProvider
+[9/7/18 17:56:24:298 UTC] 00000001 JSSEProviderF 3   Provider name [3]: IBMCertPath
+[9/7/18 17:56:24:299 UTC] 00000001 JSSEProviderF 3   Provider name [4]: IBMSASL
+[9/7/18 17:56:24:299 UTC] 00000001 JSSEProviderF 3   Provider name [5]: IBMXMLCRYPTO
+[9/7/18 17:56:24:299 UTC] 00000001 JSSEProviderF 3   Provider name [6]: IBMXMLEnc
+[9/7/18 17:56:24:299 UTC] 00000001 JSSEProviderF 3   Provider name [7]: IBMSPNEGO
+[9/7/18 17:56:24:299 UTC] 00000001 JSSEProviderF 3   Provider name [8]: SUN
+[9/7/18 17:56:24:299 UTC] 00000001 JSSEProviderF >  loadCMSProviderIfNotLoaded Entry
+[9/7/18 17:56:24:300 UTC] 00000001 JSSEProviderF 3   CMS provider found, reloading with V3
+[9/7/18 17:56:24:301 UTC] 00000001 JSSEProviderF <  loadCMSProviderIfNotLoaded Exit
+[9/7/18 17:56:24:302 UTC] 00000001 JSSEProviderF 3   jvmName=IBM J9 VM
+[9/7/18 17:56:24:302 UTC] 00000001 JSSEProviderF >  loadPKCS11ProviderIfNotLoaded Entry
+[9/7/18 17:56:24:302 UTC] 00000001 JSSEProviderF 3   HW provider not found insert it before IBMJCE
+[9/7/18 17:56:24:465 UTC] 00000001 JSSEProviderF <  loadPKCS11ProviderIfNotLoaded Exit
+[9/7/18 17:56:24:465 UTC] 00000001 JSSEProviderF <  getInstance provider = com.ibm.ws.ssl.provider.IBMJSSE2Provider@ec67c0b Exit
+[9/7/18 17:56:24:468 UTC] 00000001 WsLoggerConfi 2 com.ibm.ws.logging.WsLoggerConfigurator getCurrentLoggingConfiguration Getting for ccl of: sun.misc.Launcher$AppClassLoader@f6f3ed8 w/hashSz of: 1
+[9/7/18 17:56:24:471 UTC] 00000001 Ffdc          2 com.ibm.ffdc.impl.Ffdc getFfdcLog FFDC provider selection from prop or env or other resulted in: /MyThinClient/logs/ffdc/
+[9/7/18 17:56:24:474 UTC] 00000001 WsLoggerConfi 2 com.ibm.ws.logging.WsLoggerConfigurator getCurrentLoggingConfiguration Getting for ccl of: sun.misc.Launcher$AppClassLoader@f6f3ed8 w/hashSz of: 1
+[9/7/18 17:56:24:486 UTC] 00000001 Ffdc          2 com.ibm.ffdc.impl.Ffdc set FfdcProvider installed:com.ibm.ffdc.util.provider.FfdcOnDirProvider@bed89445
+[9/7/18 17:56:24:486 UTC] 00000001 FfdcProvider  3 com.ibm.ffdc.util.provider.FfdcOnDirProvider register Registering formatter: com.ibm.ws.ssl.utils.SSLConfigFormatter@873bfb6b
+[9/7/18 17:56:24:486 UTC] 00000001 SSLConfig     >  decodePassword Entry
+[9/7/18 17:56:24:490 UTC] 00000001 PasswordCiphe 3   com.ibm.wsspi.security.crypto.customPasswordEncryptionEnabled = null
+[9/7/18 17:56:24:491 UTC] 00000001 PasswordCiphe 3   com.ibm.wsspi.security.crypto.customPasswordEncryptionClass = null
+[9/7/18 17:56:24:491 UTC] 00000001 PasswordCiphe 3   An exception is caught while loading a default custom encryption class. This is normal unless a custom encryption class has been placed. : java.lang.ClassNotFoundException: com.ibm.wsspi.security.crypto.CustomPasswordEncryptionImpl
+[9/7/18 17:56:24:491 UTC] 00000001 PasswordCiphe 3   Could not load the custom encryption class: com.ibm.wsspi.security.crypto.CustomPasswordEncryptionImpl
+[9/7/18 17:56:24:492 UTC] 00000001 PasswordCiphe 3   Custom encryption enabled = false
+[9/7/18 17:56:24:492 UTC] 00000001 SSLConfig     3   Password was not decoded.
+[9/7/18 17:56:24:492 UTC] 00000001 SSLConfig     <  decodePassword Exit
+[9/7/18 17:56:24:492 UTC] 00000001 AdminClientFa <  decodePasswords Exit
+[9/7/18 17:56:24:497 UTC] 00000001 AdminClientFa 3   connector client property file file:/MyThinClient/properties/soap.client.props
+[9/7/18 17:56:24:498 UTC] 00000001 AdminClientFa >  getConnectorTypeFromConnPropertyFile Entry
+[9/7/18 17:56:24:498 UTC] 00000001 AdminClientFa 3   Key is com.ibm.SOAP.loginUserid
+[9/7/18 17:56:24:498 UTC] 00000001 AdminClientFa <  getConnectorTypeFromConnPropertyFile Exit
+                                 SOAP
+[9/7/18 17:56:24:498 UTC] 00000001 AdminClientFa 3   Taking care properties for SOAP
+[9/7/18 17:56:24:498 UTC] 00000001 AdminClientFa <  loadPropertisFromFile Exit
+[9/7/18 17:56:24:498 UTC] 00000001 AdminClientFa 3   soap ssl alias: DefaultSSLSettings
+[9/7/18 17:56:24:520 UTC] 00000001 AdminClientFa 3   Before 1st attempt to new up com.ibm.ws.management.connector.soap.SOAPConnectorClient
+[9/7/18 17:56:24:521 UTC] 00000001 AdminClientFa 3   Client properties: 
+[9/7/18 17:56:24:521 UTC] 00000001 AdminClientFa 3   > krb5Service=
+[9/7/18 17:56:24:521 UTC] 00000001 AdminClientFa 3   > sslConfig=DefaultSSLSettings
+[9/7/18 17:56:24:521 UTC] 00000001 AdminClientFa 3   > port=8880
+[9/7/18 17:56:24:521 UTC] 00000001 AdminClientFa 3   > com.ibm.SOAP.requestTimeout=180
+[9/7/18 17:56:24:521 UTC] 00000001 AdminClientFa 3   > securityEnabled=false
+[9/7/18 17:56:24:522 UTC] 00000001 AdminClientFa 3   > username=
+[9/7/18 17:56:24:522 UTC] 00000001 AdminClientFa 3   > com.ibm.ssl.alias=DefaultSSLSettings
+[9/7/18 17:56:24:522 UTC] 00000001 AdminClientFa 3   > type=SOAP
+[9/7/18 17:56:24:522 UTC] 00000001 AdminClientFa 3   > krb5Config=
+[9/7/18 17:56:24:522 UTC] 00000001 AdminClientFa 3   > authTarget=BasicAuth
+[9/7/18 17:56:24:522 UTC] 00000001 AdminClientFa 3   > password=
+[9/7/18 17:56:24:522 UTC] 00000001 AdminClientFa 3   > loginsource=prompt
+[9/7/18 17:56:24:523 UTC] 00000001 AdminClientFa 3   > host=was
+[9/7/18 17:56:24:529 UTC] 00000001 AdminClientFa 3   > krb5Ccache=
+[9/7/18 17:56:24:566 UTC] 00000001 GenericSerial >  loadJMXClassLoader Entry
+[9/7/18 17:56:24:566 UTC] 00000001 JMXClassLoade >  JMXClassLoader(String, ClassLoader) Entry
+[9/7/18 17:56:24:567 UTC] 00000001 JMXClassLoade 3   Parent class loader = sun.misc.Launcher$AppClassLoader@f6f3ed8
+[9/7/18 17:56:24:567 UTC] 00000001 JMXClassLoade 3   thinclient system property is set to true.
+[9/7/18 17:56:24:567 UTC] 00000001 JMXClassLoade 3   Running in thinclient environment; JMX interoperability not supported.
+[9/7/18 17:56:24:567 UTC] 00000001 URLHandlerFac >  createURLStreamHandler for protocol=file Entry
+[9/7/18 17:56:24:567 UTC] 00000001 URLHandlerFac 3   streamHandlerTable={https=com.ibm.ws.runtime.util.utilHandlerClass@35f13bae}
+[9/7/18 17:56:24:567 UTC] 00000001 URLHandlerFac 3   handler class null retrieved from streamHandlerTable
+[9/7/18 17:56:24:568 UTC] 00000001 URLHandlerFac 3   Could not find streamHandlerClass for: file
+[9/7/18 17:56:24:568 UTC] 00000001 URLHandlerFac <  createURLStreamHandler returning handler:null Exit
+[9/7/18 17:56:24:568 UTC] 00000001 JMXClassLoade <  JMXClassLoader(String, ClassLoader) Exit
+[9/7/18 17:56:24:568 UTC] 00000001 GenericSerial <  loadJMXClassLoader root = /MyThinClient Exit
+[9/7/18 17:56:24:581 UTC] 00000001 GenericSerial >  loadJMXTransformWriter Entry
+[9/7/18 17:56:24:581 UTC] 00000001 JMXClassLoade >  loadClass com.ibm.ws.management.connector.interop.JMXTransformWriter Entry
+[9/7/18 17:56:24:581 UTC] 00000001 URLHandlerFac >  createURLStreamHandler for protocol=jar Entry
+[9/7/18 17:56:24:581 UTC] 00000001 URLHandlerFac 3   streamHandlerTable={https=com.ibm.ws.runtime.util.utilHandlerClass@35f13bae}
+[9/7/18 17:56:24:581 UTC] 00000001 URLHandlerFac 3   handler class null retrieved from streamHandlerTable
+[9/7/18 17:56:24:582 UTC] 00000001 URLHandlerFac 3   Could not find streamHandlerClass for: jar
+[9/7/18 17:56:24:582 UTC] 00000001 URLHandlerFac <  createURLStreamHandler returning handler:null Exit
+[9/7/18 17:56:24:582 UTC] 00000001 JMXClassLoade 3   Loading class com.ibm.ws.management.connector.interop.JMXTransformWriter using ClassLoader delegation
+[9/7/18 17:56:24:582 UTC] 00000001 JMXClassLoade 3   Loading class via sun.misc.Launcher$AppClassLoader@f6f3ed8
+[9/7/18 17:56:24:582 UTC] 00000001 JMXClassLoade 3   CNF  - use current classloader com.ibm.ws.bootstrap.ExtClassLoader@4cfd6dc
+[9/7/18 17:56:24:583 UTC] 00000001 GenericSerial <  loadJMXTransformWriter Exit
+[9/7/18 17:56:24:598 UTC] 00000001 SOAPConnector >  SOAPConnectorClient Entry
+[9/7/18 17:56:24:599 UTC] 00000001 SOAPConnector 3   usingJSSESocketFactory: true
+[9/7/18 17:56:24:599 UTC] 00000001 SOAPConnector 3   autoAcceptSigner false
+[9/7/18 17:56:24:599 UTC] 00000001 SSLConfigMana >  initializeClientSSL Entry
+[9/7/18 17:56:24:599 UTC] 00000001 SSLConfigMana >  parseConfigURL Entry
+                                 /MyThinClient/properties/sas.client.props
+[9/7/18 17:56:24:599 UTC] 00000001 SSLConfig     >  loadPropertiesFile Entry
+                                 /MyThinClient/properties/sas.client.props
+                                 false
+[9/7/18 17:56:24:600 UTC] 00000001 SSLConfig     3   loadPropertiesFile exception.
+                                 java.net.MalformedURLException: no protocol: /MyThinClient/properties/sas.client.props
+	at java.net.URL.<init>(URL.java:605)
+	at java.net.URL.<init>(URL.java:502)
+	at java.net.URL.<init>(URL.java:451)
+	at com.ibm.ws.ssl.config.SSLConfig$1.run(SSLConfig.java:324)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+	at com.ibm.ws.ssl.config.SSLConfig.loadPropertiesFile(SSLConfig.java:316)
+	at com.ibm.ws.ssl.config.SSLConfig.<init>(SSLConfig.java:93)
+	at com.ibm.ws.ssl.config.SSLConfigManager.parseConfigURL(SSLConfigManager.java:2844)
+	at com.ibm.ws.ssl.config.SSLConfigManager.initializeClientSSL(SSLConfigManager.java:413)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.<init>(SOAPConnectorClient.java:232)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:437)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:457)
+	at com.ibm.websphere.management.AdminClientFactory.access$000(AdminClientFactory.java:127)
+	at com.ibm.websphere.management.AdminClientFactory$1.run(AdminClientFactory.java:210)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:63)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClient(AdminClientFactory.java:206)
+	at com.ibm.ws.scripting.CommonScriptingObject.connectToAdminService(CommonScriptingObject.java:123)
+	at com.ibm.ws.scripting.CommonScriptingObject.<init>(CommonScriptingObject.java:104)
+	at com.ibm.ws.scripting.AdminControlClient.<init>(AdminControlClient.java:170)
+	at com.ibm.ws.scripting.AbstractShell.createControlClient(AbstractShell.java:1289)
+	at com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2245)
+	at com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+
+[9/7/18 17:56:24:628 UTC] 00000001 Ffdc          I com.ibm.ffdc.util.provider.FfdcOnDirProvider logIncident FFDC1003I: FFDC Incident emitted on /MyThinClient/logs/ffdc/ffdc.3126436857039673837.txt com.ibm.ws.ssl.config.SSLConfig.loadPropertiesFile 394
+[9/7/18 17:56:24:634 UTC] 00000001 SSLConfig     <  loadPropertiesFile Exit
+[9/7/18 17:56:24:635 UTC] 00000001 SSLConfig     3   keyStoreType: null
+[9/7/18 17:56:24:635 UTC] 00000001 SSLConfig     3   trustStoreType: null
+[9/7/18 17:56:24:635 UTC] 00000001 SSLConfig     3   keyStore: null
+[9/7/18 17:56:24:635 UTC] 00000001 SSLConfig     3   keyStorePassword: null
+[9/7/18 17:56:24:635 UTC] 00000001 SSLConfig     3   trustStore: null
+[9/7/18 17:56:24:635 UTC] 00000001 SSLConfig     3   trustStorePassword: null
+[9/7/18 17:56:24:636 UTC] 00000001 SSLConfigMana E   CWPKI0019E: Error parsing the SSL client configuration file /MyThinClient/properties/sas.client.props.  The error returned is java.lang.NullPointerException.
+[9/7/18 17:56:24:643 UTC] 00000001 SSLConfigMana 3   Exception parsing SSL properties from ConfigURL.
+                                 java.lang.NullPointerException
+	at java.util.Hashtable.put(Hashtable.java:506)
+	at com.ibm.ws.ssl.config.SSLConfigManager.parseConfigURL(SSLConfigManager.java:2862)
+	at com.ibm.ws.ssl.config.SSLConfigManager.initializeClientSSL(SSLConfigManager.java:413)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.<init>(SOAPConnectorClient.java:232)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:437)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:457)
+	at com.ibm.websphere.management.AdminClientFactory.access$000(AdminClientFactory.java:127)
+	at com.ibm.websphere.management.AdminClientFactory$1.run(AdminClientFactory.java:210)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:63)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClient(AdminClientFactory.java:206)
+	at com.ibm.ws.scripting.CommonScriptingObject.connectToAdminService(CommonScriptingObject.java:123)
+	at com.ibm.ws.scripting.CommonScriptingObject.<init>(CommonScriptingObject.java:104)
+	at com.ibm.ws.scripting.AdminControlClient.<init>(AdminControlClient.java:170)
+	at com.ibm.ws.scripting.AbstractShell.createControlClient(AbstractShell.java:1289)
+	at com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2245)
+	at com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+
+[9/7/18 17:56:24:719 UTC] 00000001 Ffdc          I com.ibm.ffdc.util.provider.FfdcOnDirProvider logIncident FFDC1003I: FFDC Incident emitted on /MyThinClient/logs/ffdc/ffdc.4935731049884760509.txt com.ibm.ws.ssl.core.SSLConfigManager.parseConfigURL 2567
+[9/7/18 17:56:24:721 UTC] 00000001 SSLConfigMana <  parseConfigURL Exit
+[9/7/18 17:56:24:723 UTC] 00000001 SSLConfigMana >  parseConfigURL Entry
+                                 /MyThinClient/properties/soap.client.props
+[9/7/18 17:56:24:723 UTC] 00000001 SSLConfig     >  loadPropertiesFile Entry
+                                 /MyThinClient/properties/soap.client.props
+                                 false
+[9/7/18 17:56:24:723 UTC] 00000001 SSLConfig     3   loadPropertiesFile exception.
+                                 java.net.MalformedURLException: no protocol: /MyThinClient/properties/soap.client.props
+	at java.net.URL.<init>(URL.java:605)
+	at java.net.URL.<init>(URL.java:502)
+	at java.net.URL.<init>(URL.java:451)
+	at com.ibm.ws.ssl.config.SSLConfig$1.run(SSLConfig.java:324)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+	at com.ibm.ws.ssl.config.SSLConfig.loadPropertiesFile(SSLConfig.java:316)
+	at com.ibm.ws.ssl.config.SSLConfig.<init>(SSLConfig.java:93)
+	at com.ibm.ws.ssl.config.SSLConfigManager.parseConfigURL(SSLConfigManager.java:2844)
+	at com.ibm.ws.ssl.config.SSLConfigManager.initializeClientSSL(SSLConfigManager.java:419)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.<init>(SOAPConnectorClient.java:232)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:437)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:457)
+	at com.ibm.websphere.management.AdminClientFactory.access$000(AdminClientFactory.java:127)
+	at com.ibm.websphere.management.AdminClientFactory$1.run(AdminClientFactory.java:210)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:63)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClient(AdminClientFactory.java:206)
+	at com.ibm.ws.scripting.CommonScriptingObject.connectToAdminService(CommonScriptingObject.java:123)
+	at com.ibm.ws.scripting.CommonScriptingObject.<init>(CommonScriptingObject.java:104)
+	at com.ibm.ws.scripting.AdminControlClient.<init>(AdminControlClient.java:170)
+	at com.ibm.ws.scripting.AbstractShell.createControlClient(AbstractShell.java:1289)
+	at com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2245)
+	at com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+
+[9/7/18 17:56:24:724 UTC] 00000001 SSLConfig     <  loadPropertiesFile Exit
+[9/7/18 17:56:24:724 UTC] 00000001 SSLConfig     3   keyStoreType: null
+[9/7/18 17:56:24:724 UTC] 00000001 SSLConfig     3   trustStoreType: null
+[9/7/18 17:56:24:724 UTC] 00000001 SSLConfig     3   keyStore: null
+[9/7/18 17:56:24:725 UTC] 00000001 SSLConfig     3   keyStorePassword: null
+[9/7/18 17:56:24:725 UTC] 00000001 SSLConfig     3   trustStore: null
+[9/7/18 17:56:24:725 UTC] 00000001 SSLConfig     3   trustStorePassword: null
+[9/7/18 17:56:24:725 UTC] 00000001 SSLConfig     >  requiredPropertiesArePresent Entry
+[9/7/18 17:56:24:725 UTC] 00000001 SSLConfig     <  requiredPropertiesArePresent -> false Exit
+[9/7/18 17:56:24:725 UTC] 00000001 SSLConfigMana <  parseConfigURL Exit
+[9/7/18 17:56:24:726 UTC] 00000001 SSLConfigMana >  parseSSLConfigURL Entry
+                                 /MyThinClient/properties/ssl.client.props
+                                 false
+[9/7/18 17:56:24:726 UTC] 00000001 SSLConfig     3   keyStoreType: null
+[9/7/18 17:56:24:726 UTC] 00000001 SSLConfig     3   trustStoreType: null
+[9/7/18 17:56:24:726 UTC] 00000001 SSLConfig     3   keyStore: null
+[9/7/18 17:56:24:726 UTC] 00000001 SSLConfig     3   keyStorePassword: null
+[9/7/18 17:56:24:726 UTC] 00000001 SSLConfig     3   trustStore: null
+[9/7/18 17:56:24:726 UTC] 00000001 SSLConfig     3   trustStorePassword: null
+[9/7/18 17:56:24:727 UTC] 00000001 SSLConfig     >  loadPropertiesFile Entry
+                                 /MyThinClient/properties/ssl.client.props
+                                 true
+[9/7/18 17:56:24:727 UTC] 00000001 SSLConfig     3   loadPropertiesFile exception.
+                                 java.net.MalformedURLException: no protocol: /MyThinClient/properties/ssl.client.props
+	at java.net.URL.<init>(URL.java:605)
+	at java.net.URL.<init>(URL.java:502)
+	at java.net.URL.<init>(URL.java:451)
+	at com.ibm.ws.ssl.config.SSLConfig$1.run(SSLConfig.java:324)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+	at com.ibm.ws.ssl.config.SSLConfig.loadPropertiesFile(SSLConfig.java:316)
+	at com.ibm.ws.ssl.config.SSLConfigManager.parseSSLConfigURL(SSLConfigManager.java:2969)
+	at com.ibm.ws.ssl.config.SSLConfigManager.initializeClientSSL(SSLConfigManager.java:423)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.<init>(SOAPConnectorClient.java:232)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:437)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:457)
+	at com.ibm.websphere.management.AdminClientFactory.access$000(AdminClientFactory.java:127)
+	at com.ibm.websphere.management.AdminClientFactory$1.run(AdminClientFactory.java:210)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:63)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClient(AdminClientFactory.java:206)
+	at com.ibm.ws.scripting.CommonScriptingObject.connectToAdminService(CommonScriptingObject.java:123)
+	at com.ibm.ws.scripting.CommonScriptingObject.<init>(CommonScriptingObject.java:104)
+	at com.ibm.ws.scripting.AdminControlClient.<init>(AdminControlClient.java:170)
+	at com.ibm.ws.scripting.AbstractShell.createControlClient(AbstractShell.java:1289)
+	at com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2245)
+	at com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+
+[9/7/18 17:56:24:727 UTC] 00000001 SSLConfig     <  loadPropertiesFile Exit
+[9/7/18 17:56:24:728 UTC] 00000001 SSLConfigMana <  parseSSLConfigURL Exit
+[9/7/18 17:56:24:728 UTC] 00000001 SSLConfigMana >  setSecurityProperties Entry
+[9/7/18 17:56:24:728 UTC] 00000001 SSLConfigMana 3   Getting java security property  jdk.certpath.disabledAlgorithms.
+[9/7/18 17:56:24:728 UTC] 00000001 SSLConfigMana 3   Returning property value  MD2, MD5, RSA keySize < 1024, DSA keySize < 1024, EC keySize < 224.
+[9/7/18 17:56:24:729 UTC] 00000001 SSLConfigMana 3   Getting java security property  jdk.tls.disabledAlgorithms.
+[9/7/18 17:56:24:729 UTC] 00000001 SSLConfigMana 3   Returning property value  SSLv3, RC4, MD5withRSA, DH keySize < 768, 3DES_EDE_CBC, DESede, EC keySize < 224.
+[9/7/18 17:56:24:729 UTC] 00000001 SSLConfigMana 3   Setting java security property  jdk.certpath.disabledAlgorithms to MD2, RSA keySize < 1024, MD5
+[9/7/18 17:56:24:730 UTC] 00000001 SSLConfigMana I   CWPKI0051I: The process has the java security property jdk.certpath.disabledAlgorithms set to [MD2, MD5, RSA keySize < 1024, DSA keySize < 1024, EC keySize < 224].  The WebSphere Application server is setting the java security property jdk.certpath.disabledAlgorithms to [MD2, RSA keySize < 1024, MD5]. 
+[9/7/18 17:56:24:730 UTC] 00000001 SSLConfigMana 3   Setting java security property  jdk.tls.disabledAlgorithms to SSLv3, RC4, DH keySize < 768, MD5withRSA
+[9/7/18 17:56:24:730 UTC] 00000001 SSLConfigMana I   CWPKI0051I: The process has the java security property jdk.tls.disabledAlgorithms set to [SSLv3, RC4, MD5withRSA, DH keySize < 768, 3DES_EDE_CBC, DESede, EC keySize < 224].  The WebSphere Application server is setting the java security property jdk.tls.disabledAlgorithms to [SSLv3, RC4, DH keySize < 768, MD5withRSA]. 
+[9/7/18 17:56:24:731 UTC] 00000001 SSLConfigMana 3   Setting java security property  jceks.key.serialFilter to javax.crypto.spec.SecretKeySpec;javax.security.auth.kerberos.*;com.ibm.crypto.provider.*;com.ibm.crypto.fips.provider.*;com.ibm.crypto.plus.provider.*;com.ibm.security.x509.*;java.math.BigInteger;java.lang.Number;!*
+[9/7/18 17:56:24:731 UTC] 00000001 SSLConfigMana <  setSecurityProperties Exit
+[9/7/18 17:56:24:731 UTC] 00000001 FIPSManager   >  initializeFips Entry
+[9/7/18 17:56:24:732 UTC] 00000001 FIPSUtils     >  checkFipsEnabled Entry
+[9/7/18 17:56:24:732 UTC] 00000001 FIPSUtils     <  fipsEnabled Exit
+                                 false
+[9/7/18 17:56:24:732 UTC] 00000001 FIPSUtils     >  checkFipsLevel Entry
+[9/7/18 17:56:24:733 UTC] 00000001 FIPSUtils     <  checkFipsLevel Exit
+                                 <null>
+[9/7/18 17:56:24:733 UTC] 00000001 FIPSUtils     >  checkSuiteBLevel Entry
+[9/7/18 17:56:24:733 UTC] 00000001 FIPSUtils     <  checkFipsLevel Exit
+                                 <null>
+[9/7/18 17:56:24:733 UTC] 00000001 FIPSUtils     >  isFips140_2Enabled Entry
+[9/7/18 17:56:24:733 UTC] 00000001 FIPSUtils     >  getFipsSecurityMode fipsEnabled=false fipsLevel=null suiteBLevel=null Entry
+[9/7/18 17:56:24:733 UTC] 00000001 FIPSUtils     <  initFipsecurityMode Exit
+                                 No FIPS property found
+[9/7/18 17:56:24:733 UTC] 00000001 FIPSUtils     >  isFips140_2Enabled Entry
+                                 false
+[9/7/18 17:56:24:734 UTC] 00000001 FIPSUtils     >  setJavaPropsForPostFips800-131 Entry
+[9/7/18 17:56:24:734 UTC] 00000001 FIPSUtils     3   First, clear Java System Properties that are FIPS related
+[9/7/18 17:56:24:734 UTC] 00000001 FIPSUtils     3   Setting Java System property:com.ibm.jsse2.usefipsprovider to false
+[9/7/18 17:56:24:734 UTC] 00000001 FIPSUtils     3   Setting Java System property:com.ibm.jsse2.sp800-131 to 
+[9/7/18 17:56:24:734 UTC] 00000001 FIPSUtils     3   Setting Java System property:com.ibm.jsse2.suiteB to 
+[9/7/18 17:56:24:734 UTC] 00000001 FIPSUtils     >  getFipsSecurityMode fipsEnabled=false fipsLevel=null suiteBLevel=null Entry
+[9/7/18 17:56:24:734 UTC] 00000001 FIPSUtils     <  initFipsecurityMode Exit
+                                 No FIPS property found
+[9/7/18 17:56:24:735 UTC] 00000001 FIPSUtils     <  setJavaPropsForPostFips800-131 Exit
+[9/7/18 17:56:24:735 UTC] 00000001 FIPSUtils     >  isFips140_2Enabled Entry
+[9/7/18 17:56:24:735 UTC] 00000001 FIPSUtils     >  getFipsSecurityMode fipsEnabled=false fipsLevel=null suiteBLevel=null Entry
+[9/7/18 17:56:24:735 UTC] 00000001 FIPSUtils     <  initFipsecurityMode Exit
+                                 No FIPS property found
+[9/7/18 17:56:24:735 UTC] 00000001 FIPSUtils     >  isFips140_2Enabled Entry
+                                 false
+[9/7/18 17:56:24:737 UTC] 00000001 FIPSManager   <  initializeFips Exit
+[9/7/18 17:56:24:740 UTC] 00000001 SSLConfigMana >  getDefaultSystemProperties Entry
+[9/7/18 17:56:24:740 UTC] 00000001 SSLConfigMana >  parseSecureSocketLayer Entry
+[9/7/18 17:56:24:741 UTC] 00000001 SSLConfig     3   keyStoreType: null
+[9/7/18 17:56:24:741 UTC] 00000001 SSLConfig     3   trustStoreType: null
+[9/7/18 17:56:24:741 UTC] 00000001 SSLConfig     3   keyStore: null
+[9/7/18 17:56:24:741 UTC] 00000001 SSLConfig     3   keyStorePassword: null
+[9/7/18 17:56:24:741 UTC] 00000001 SSLConfig     3   trustStore: null
+[9/7/18 17:56:24:742 UTC] 00000001 SSLConfig     3   trustStorePassword: null
+[9/7/18 17:56:24:742 UTC] 00000001 KeyStoreManag >  loadOldWCCMKeyStore Entry
+[9/7/18 17:56:24:742 UTC] 00000001 SSLConfigMana >  getGlobalProperty Entry
+                                 com.ibm.websphere.ssl.ignore.jvm.keystores
+                                 false
+[9/7/18 17:56:24:742 UTC] 00000001 SSLConfigMana <  getGlobalProperty -> false Exit
+[9/7/18 17:56:24:743 UTC] 00000001 KeyStoreManag 3   Due to missing property,  keyStoreName was not set
+[9/7/18 17:56:24:743 UTC] 00000001 KeyStoreManag 3   Due to missing property,  keyStorePassword was not set
+[9/7/18 17:56:24:743 UTC] 00000001 KeyStoreManag 3   Due to missing property,  keyStoreFormat was not set
+[9/7/18 17:56:24:743 UTC] 00000001 KeyStoreManag 3   Due to missing property,  keyStoreProvider was not set
+[9/7/18 17:56:24:743 UTC] 00000001 KeyStoreManag 3   Due to missing property,  trustStoreProvider was not set
+[9/7/18 17:56:24:744 UTC] 00000001 KeyStoreManag 3   Due to missing property,  trustStorePassword was not set
+[9/7/18 17:56:24:744 UTC] 00000001 KeyStoreManag 3   Due to missing property,  trustStoreFormat was not set
+[9/7/18 17:56:24:744 UTC] 00000001 KeyStoreManag 3   Due to missing property,  trustStoreProvider was not set
+[9/7/18 17:56:24:744 UTC] 00000001 KeyStoreManag 3   Total Number of KeyStores: 0
+[9/7/18 17:56:24:744 UTC] 00000001 KeyStoreManag <  loadOldWCCMKeyStore Exit
+[9/7/18 17:56:24:744 UTC] 00000001 KeyStoreManag <  loadOldWCCMKeyStores Not returning any KeyStores from old WCCM config. Exit
+[9/7/18 17:56:24:745 UTC] 00000001 SSLConfigMana 3   Setting default KeyManager: IbmX509
+[9/7/18 17:56:24:745 UTC] 00000001 SSLConfigMana 3   Setting default TrustManager: PKIX
+[9/7/18 17:56:24:745 UTC] 00000001 FIPSManager   >  isFIPSEnabled Entry
+[9/7/18 17:56:24:745 UTC] 00000001 FIPSManager   <  isFIPSEnabled -> false Exit
+[9/7/18 17:56:24:745 UTC] 00000001 SSLConfigMana 3   Saving SSLConfig.
+[9/7/18 17:56:24:745 UTC] 00000001 SSLConfig     >  toString Entry
+[9/7/18 17:56:24:746 UTC] 00000001 SSLConfig     <  toString Exit
+[9/7/18 17:56:24:756 UTC] 00000001 SSLConfigMana 3   SSLConfig.toString() {
+com.ibm.ssl.validationEnabled = false
+com.ibm.ssl.trustStoreFileBased = true
+com.ibm.ssl.keyStoreFileBased = true
+com.ibm.ssl.clientAuthentication = false
+com.ibm.ssl.securityLevel = HIGH
+com.ibm.ssl.keyStoreType = JKS
+com.ibm.ssl.contextProvider = IBMJSSE2
+com.ibm.ssl.keyManager = IbmX509
+com.ibm.ssl.tokenEnabled = false
+com.ibm.ssl.keyStoreProvider = IBMJCE
+com.ibm.ssl.trustStoreType = JKS
+com.ibm.ssl.trustManager = PKIX
+com.ibm.ssl.trustStoreProvider = IBMJCE
+com.ibm.ssl.protocol = SSL_TLSv2
+com.ibm.ssl.daysBeforeExpireWarning = 60
+}
+[9/7/18 17:56:24:757 UTC] 00000001 SSLConfigMana <  parseSecureSocketLayer Exit
+[9/7/18 17:56:24:757 UTC] 00000001 SSLConfig     >  requiredPropertiesArePresent Entry
+[9/7/18 17:56:24:757 UTC] 00000001 SSLConfig     <  requiredPropertiesArePresent -> false Exit
+[9/7/18 17:56:24:758 UTC] 00000001 SSLConfigMana >  setDefaultSystemPropertiesIfNecessary Entry
+                                 <null>
+                                 <null>
+[9/7/18 17:56:24:758 UTC] 00000001 SSLConfigMana >  getDefaultSSLConfig Entry
+[9/7/18 17:56:24:758 UTC] 00000001 SSLConfigMana >  getGlobalProperty Entry
+                                 com.ibm.websphere.ssl.ignore.jvm.keystores
+                                 false
+[9/7/18 17:56:24:759 UTC] 00000001 SSLConfigMana <  getGlobalProperty -> false Exit
+[9/7/18 17:56:24:759 UTC] 00000001 SSLConfigMana 3   defaultAlias: null
+[9/7/18 17:56:24:764 UTC] 00000001 ServerStatusH 3   isRunningInServerMode=false
+[9/7/18 17:56:24:764 UTC] 00000001 ManagementSco 3   ctor - not on a server, using null scope 
+[9/7/18 17:56:24:791 UTC] 00000001 ServerStatusH 3   isRunningInServerMode=false
+[9/7/18 17:56:24:793 UTC] 00000001 AdminContext  >  peek Entry
+[9/7/18 17:56:24:794 UTC] 00000001 ServerStatusH 3   isRunningInServerMode=false
+[9/7/18 17:56:24:795 UTC] 00000001 AdminDataImpl 3   On client
+[9/7/18 17:56:24:795 UTC] 00000001 AdminDataImpl 3   CurrentProcessData:
+jvm type: client
+configRootPath: /MyThinClient/config
+userInstallRootPath: /MyThinClient
+cellURI: client
+nodesURI: client
+clustersURI: client
+nodeGroupNames: client, 
+process type: client
+process name: client
+server type: client
+cluster name: client
+node name: client
+cell name: client
+currentScopeNames: client, 
+currentNodeGroupScopeNames: client, 
+currentClusterScopeName: client
+currentProcessScopeName: client
+currentNodeScopeName: client
+currentCellScopeName: client
+[9/7/18 17:56:24:795 UTC] 00000001 SSLConfig     3   keyStoreType: null
+[9/7/18 17:56:24:795 UTC] 00000001 SSLConfig     3   trustStoreType: null
+[9/7/18 17:56:24:795 UTC] 00000001 SSLConfig     3   keyStore: null
+[9/7/18 17:56:24:795 UTC] 00000001 SSLConfig     3   keyStorePassword: null
+[9/7/18 17:56:24:796 UTC] 00000001 SSLConfig     3   trustStore: null
+[9/7/18 17:56:24:796 UTC] 00000001 SSLConfig     3   trustStorePassword: null
+[9/7/18 17:56:24:796 UTC] 00000001 SSLConfig     >  requiredPropertiesArePresent Entry
+[9/7/18 17:56:24:796 UTC] 00000001 SSLConfig     <  requiredPropertiesArePresent -> false Exit
+[9/7/18 17:56:24:796 UTC] 00000001 SSLConfigMana <  getDefaultSSLConfig -> null Exit
+[9/7/18 17:56:24:796 UTC] 00000001 SSLConfigMana <  setDefaultSystemPropertiesIfNecessary Exit
+[9/7/18 17:56:24:796 UTC] 00000001 SSLConfigMana <  getDefaultSystemProperties -> null Exit
+[9/7/18 17:56:24:797 UTC] 00000001 SSLConfigMana I   CWPKI0027I: Disabling default hostname verification for HTTPS URL connections.
+[9/7/18 17:56:24:798 UTC] 00000001 SSLConfigMana <  initializeClientSSL Exit
+[9/7/18 17:56:24:801 UTC] 00000001 SOAPConnector >  reconnect Entry
+[9/7/18 17:56:24:815 UTC] 00000001 SOAPConnector 3   reconnect setting context 1.0.0
+[9/7/18 17:56:24:815 UTC] 00000001 SOAPConnector >  getJMXConnectorContextHeader Entry
+[9/7/18 17:56:24:818 UTC] 00000001 JMXConnectorC >  push Entry
+[9/7/18 17:56:24:830 UTC] 00000001 AdminServiceF >  getAdminService Entry
+[9/7/18 17:56:24:831 UTC] 00000001 AdminContext  >  peek Entry
+[9/7/18 17:56:24:831 UTC] 00000001 AdminContext  >  peek Entry
+[9/7/18 17:56:24:831 UTC] 00000001 AdminServiceF <  getAdminService Exit
+                                 <null>
+[9/7/18 17:56:24:831 UTC] 00000001 JMXConnectorC <  push Exit
+[9/7/18 17:56:24:831 UTC] 00000001 JMXConnectorC >  serialize Entry
+[9/7/18 17:56:24:853 UTC] 00000001 Base64        >  encode Entry
+                                     aced0005 7372000f 6a617661 2e757469 6c2e5374 61636b10 fe2ac2bb 09861d02 
+    00007872 00106a61 76612e75 74696c2e 56656374 6f72d997 7d5b803b af010300 
+    03490011 63617061 63697479 496e6372 656d656e 7449000c 656c656d 656e7443 
+    6f756e74 5b000b65 6c656d65 6e744461 74617400 135b4c6a 6176612f 6c616e67 
+    2f4f626a 6563743b 78700000 00000000 00017572 00135b4c 6a617661 2e6c616e 
+    672e4f62 6a656374 3b90ce58 9f107329 6c020000 78700000 000a7372 003a636f 
+    6d2e6962 6d2e7773 2e6d616e 6167656d 656e742e 636f6e6e 6563746f 722e4a4d 
+    58436f6e 6e656374 6f72436f 6e746578 74456c65 6d656e74 db951332 63217cb1 
+    0200054c 00086365 6c6c4e61 6d657400 124c6a61 76612f6c 616e672f 53747269 
+    6e673b4c 0008686f 73744e61 6d657100 7e00074c 00086e6f 64654e61 6d657100 
+    7e00074c 000a7365 72766572 4e616d65 71007e00 075b000a 73746163 6b547261 
+    63657400 1e5b4c6a 6176612f 6c616e67 2f537461 636b5472 61636545 6c656d65 
+    6e743b78 70740000 74000c64 35393966 64333362 33323771 007e000a 71007e00 
+    0a757200 1e5b4c6a 6176612e 6c616e67 2e537461 636b5472 61636545 6c656d65 
+    6e743b02 462a3c3c fd223902 00007870 00000014 7372001b 6a617661 2e6c616e 
+    672e5374 61636b54 72616365 456c656d 656e7461 09c59a26 36dd8502 00044900 
+    0a6c696e 654e756d 6265724c 000e6465 636c6172 696e6743 6c617373 71007e00 
+    074c0008 66696c65 4e616d65 71007e00 074c000a 6d657468 6f644e61 6d657100 
+    7e000778 70000000 4b74003a 636f6d2e 69626d2e 77732e6d 616e6167 656d656e 
+    742e636f 6e6e6563 746f722e 4a4d5843 6f6e6e65 63746f72 436f6e74 65787445 
+    6c656d65 6e747400 1f4a4d58 436f6e6e 6563746f 72436f6e 74657874 456c656d 
+    656e742e 6a617661 7400063c 696e6974 3e737100 7e000e00 00003c74 0033636f 
+    6d2e6962 6d2e7773 2e6d616e 6167656d 656e742e 636f6e6e 6563746f 722e4a4d 
+    58436f6e 6e656374 6f72436f 6e746578 74740018 4a4d5843 6f6e6e65 63746f72 
+    436f6e74 6578742e 6a617661 74000470 75736873 71007e00 0e000006 4b740038 
+    636f6d2e 69626d2e 77732e6d 616e6167 656d656e 742e636f 6e6e6563 746f722e 
+    736f6170 2e534f41 50436f6e 6e656374 6f72436c 69656e74 74001853 4f415043 
+    6f6e6e65 63746f72 436c6965 6e742e6a 61766174 001c6765 744a4d58 436f6e6e 
+    6563746f 72436f6e 74657874 48656164 65727371 007e000e 00000178 74003863 
+    6f6d2e69 626d2e77 732e6d61 6e616765 6d656e74 2e636f6e 6e656374 6f722e73 
+    6f61702e 534f4150 436f6e6e 6563746f 72436c69 656e7474 0018534f 4150436f 
+    6e6e6563 746f7243 6c69656e 742e6a61 76617400 09726563 6f6e6e65 63747371 
+    007e000e 000000ec 74003863 6f6d2e69 626d2e77 732e6d61 6e616765 6d656e74 
+    2e636f6e 6e656374 6f722e73 6f61702e 534f4150 436f6e6e 6563746f 72436c69 
+    656e7474 0018534f 4150436f 6e6e6563 746f7243 6c69656e 742e6a61 76617400 
+    063c696e 69743e73 71007e00 0effffff fe740029 73756e2e 7265666c 6563742e 
+    4e617469 7665436f 6e737472 7563746f 72416363 6573736f 72496d70 6c740022 
+    4e617469 7665436f 6e737472 7563746f 72416363 6573736f 72496d70 6c2e6a61 
+    76617400 0c6e6577 496e7374 616e6365 30737100 7e000e00 00005374 00297375 
+    6e2e7265 666c6563 742e4e61 74697665 436f6e73 74727563 746f7241 63636573 
+    736f7249 6d706c74 00224e61 74697665 436f6e73 74727563 746f7241 63636573 
+    736f7249 6d706c2e 6a617661 74000b6e 6577496e 7374616e 63657371 007e000e 
+    00000039 74002d73 756e2e72 65666c65 63742e44 656c6567 6174696e 67436f6e 
+    73747275 63746f72 41636365 73736f72 496d706c 74002644 656c6567 6174696e 
+    67436f6e 73747275 63746f72 41636365 73736f72 496d706c 2e6a6176 6174000b 
+    6e657749 6e737461 6e636573 71007e00 0e000001 b574001d 6a617661 2e6c616e 
+    672e7265 666c6563 742e436f 6e737472 7563746f 72740010 436f6e73 74727563 
+    746f722e 6a617661 74000b6e 6577496e 7374616e 63657371 007e000e 000001c9 
+    74002f63 6f6d2e69 626d2e77 65627370 68657265 2e6d616e 6167656d 656e742e 
+    41646d69 6e436c69 656e7446 6163746f 72797400 1741646d 696e436c 69656e74 
+    46616374 6f72792e 6a617661 74001b63 72656174 6541646d 696e436c 69656e74 
+    50726976 696c6567 65647371 007e000e 0000007f 74002f63 6f6d2e69 626d2e77 
+    65627370 68657265 2e6d616e 6167656d 656e742e 41646d69 6e436c69 656e7446 
+    6163746f 72797400 1741646d 696e436c 69656e74 46616374 6f72792e 6a617661 
+    74000a61 63636573 73243030 30737100 7e000e00 0000d274 0031636f 6d2e6962 
+    6d2e7765 62737068 6572652e 6d616e61 67656d65 6e742e41 646d696e 436c6965 
+    6e744661 63746f72 79243174 00174164 6d696e43 6c69656e 74466163 746f7279 
+    2e6a6176 61740003 72756e73 71007e00 0e000000 3f740029 636f6d2e 69626d2e 
+    77732e73 65637572 6974792e 7574696c 2e416363 65737343 6f6e7472 6f6c6c65 
+    72740015 41636365 7373436f 6e74726f 6c6c6572 2e6a6176 6174000c 646f5072 
+    6976696c 65676564 7371007e 000e0000 00ce7400 2f636f6d 2e69626d 2e776562 
+    73706865 72652e6d 616e6167 656d656e 742e4164 6d696e43 6c69656e 74466163 
+    746f7279 74001741 646d696e 436c6965 6e744661 63746f72 792e6a61 76617400 
+    11637265 61746541 646d696e 436c6965 6e747371 007e000e 0000007b 74002a63 
+    6f6d2e69 626d2e77 732e7363 72697074 696e672e 436f6d6d 6f6e5363 72697074 
+    696e674f 626a6563 7474001a 436f6d6d 6f6e5363 72697074 696e674f 626a6563 
+    742e6a61 76617400 15636f6e 6e656374 546f4164 6d696e53 65727669 63657371 
+    007e000e 00000068 74002a63 6f6d2e69 626d2e77 732e7363 72697074 696e672e 
+    436f6d6d 6f6e5363 72697074 696e674f 626a6563 7474001a 436f6d6d 6f6e5363 
+    72697074 696e674f 626a6563 742e6a61 76617400 063c696e 69743e73 71007e00 
+    0e000000 aa740027 636f6d2e 69626d2e 77732e73 63726970 74696e67 2e41646d 
+    696e436f 6e74726f 6c436c69 656e7474 00174164 6d696e43 6f6e7472 6f6c436c 
+    69656e74 2e6a6176 61740006 3c696e69 743e7371 007e000e 00000509 74002263 
+    6f6d2e69 626d2e77 732e7363 72697074 696e672e 41627374 72616374 5368656c 
+    6c740012 41627374 72616374 5368656c 6c2e6a61 76617400 13637265 61746543 
+    6f6e7472 6f6c436c 69656e74 7371007e 000e0000 08c57400 22636f6d 2e69626d 
+    2e77732e 73637269 7074696e 672e4162 73747261 63745368 656c6c74 00124162 
+    73747261 63745368 656c6c2e 6a617661 74000372 756e7371 007e000e 00000494 
+    74001e63 6f6d2e69 626d2e77 732e7363 72697074 696e672e 57617378 5368656c 
+    6c74000e 57617378 5368656c 6c2e6a61 76617400 046d6169 6e707070 70707070 
+    707078
+[9/7/18 17:56:24:855 UTC] 00000001 Base64        >  encode Entry
+                                 [B@97903352
+                                 0
+                                 2563
+[9/7/18 17:56:24:856 UTC] 00000001 Base64        <  encode Exit
+                                 rO0ABXNyAA9qYXZhLnV0aWwuU3RhY2sQ/irCuwmGHQIAAHhyABBqYXZhLnV0aWwuVmVjdG9y2Zd9W4A7rwEDAANJABFjYXBhY2l0eUluY3JlbWVudEkADGVsZW1lbnRDb3VudFsAC2VsZW1lbnREYXRhdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwAAAAAAAAAAF1cgATW0xqYXZhLmxhbmcuT2JqZWN0O5DOWJ8QcylsAgAAeHAAAAAKc3IAOmNvbS5pYm0ud3MubWFuYWdlbWVudC5jb25uZWN0b3IuSk1YQ29ubmVjdG9yQ29udGV4dEVsZW1lbnTblRMyYyF8sQIABUwACGNlbGxOYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7TAAIaG9zdE5hbWVxAH4AB0wACG5vZGVOYW1lcQB+AAdMAApzZXJ2ZXJOYW1lcQB+AAdbAApzdGFja1RyYWNldAAeW0xqYXZhL2xhbmcvU3RhY2tUcmFjZUVsZW1lbnQ7eHB0AAB0AAxkNTk5ZmQzM2IzMjdxAH4ACnEAfgAKdXIAHltMamF2YS5sYW5nLlN0YWNrVHJhY2VFbGVtZW50OwJGKjw8/SI5AgAAeHAAAAAUc3IAG2phdmEubGFuZy5TdGFja1RyYWNlRWxlbWVudGEJxZomNt2FAgAESQAKbGluZU51bWJlckwADmRlY2xhcmluZ0NsYXNzcQB+AAdMAAhmaWxlTmFtZXEAfgAHTAAKbWV0aG9kTmFtZXEAfgAHeHAAAABLdAA6Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5KTVhDb25uZWN0b3JDb250ZXh0RWxlbWVudHQAH0pNWENvbm5lY3RvckNvbnRleHRFbGVtZW50LmphdmF0AAY8aW5pdD5zcQB+AA4AAAA8dAAzY29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5KTVhDb25uZWN0b3JDb250ZXh0dAAYSk1YQ29ubmVjdG9yQ29udGV4dC5qYXZhdAAEcHVzaHNxAH4ADgAABkt0ADhjb20uaWJtLndzLm1hbmFnZW1lbnQuY29ubmVjdG9yLnNvYXAuU09BUENvbm5lY3RvckNsaWVudHQAGFNPQVBDb25uZWN0b3JDbGllbnQuamF2YXQAHGdldEpNWENvbm5lY3RvckNvbnRleHRIZWFkZXJzcQB+AA4AAAF4dAA4Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5zb2FwLlNPQVBDb25uZWN0b3JDbGllbnR0ABhTT0FQQ29ubmVjdG9yQ2xpZW50LmphdmF0AAlyZWNvbm5lY3RzcQB+AA4AAADsdAA4Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5zb2FwLlNPQVBDb25uZWN0b3JDbGllbnR0ABhTT0FQQ29ubmVjdG9yQ2xpZW50LmphdmF0AAY8aW5pdD5zcQB+AA7////+dAApc3VuLnJlZmxlY3QuTmF0aXZlQ29uc3RydWN0b3JBY2Nlc3NvckltcGx0ACJOYXRpdmVDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbC5qYXZhdAAMbmV3SW5zdGFuY2Uwc3EAfgAOAAAAU3QAKXN1bi5yZWZsZWN0Lk5hdGl2ZUNvbnN0cnVjdG9yQWNjZXNzb3JJbXBsdAAiTmF0aXZlQ29uc3RydWN0b3JBY2Nlc3NvckltcGwuamF2YXQAC25ld0luc3RhbmNlc3EAfgAOAAAAOXQALXN1bi5yZWZsZWN0LkRlbGVnYXRpbmdDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbHQAJkRlbGVnYXRpbmdDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbC5qYXZhdAALbmV3SW5zdGFuY2VzcQB+AA4AAAG1dAAdamF2YS5sYW5nLnJlZmxlY3QuQ29uc3RydWN0b3J0ABBDb25zdHJ1Y3Rvci5qYXZhdAALbmV3SW5zdGFuY2VzcQB+AA4AAAHJdAAvY29tLmlibS53ZWJzcGhlcmUubWFuYWdlbWVudC5BZG1pbkNsaWVudEZhY3Rvcnl0ABdBZG1pbkNsaWVudEZhY3RvcnkuamF2YXQAG2NyZWF0ZUFkbWluQ2xpZW50UHJpdmlsZWdlZHNxAH4ADgAAAH90AC9jb20uaWJtLndlYnNwaGVyZS5tYW5hZ2VtZW50LkFkbWluQ2xpZW50RmFjdG9yeXQAF0FkbWluQ2xpZW50RmFjdG9yeS5qYXZhdAAKYWNjZXNzJDAwMHNxAH4ADgAAANJ0ADFjb20uaWJtLndlYnNwaGVyZS5tYW5hZ2VtZW50LkFkbWluQ2xpZW50RmFjdG9yeSQxdAAXQWRtaW5DbGllbnRGYWN0b3J5LmphdmF0AANydW5zcQB+AA4AAAA/dAApY29tLmlibS53cy5zZWN1cml0eS51dGlsLkFjY2Vzc0NvbnRyb2xsZXJ0ABVBY2Nlc3NDb250cm9sbGVyLmphdmF0AAxkb1ByaXZpbGVnZWRzcQB+AA4AAADOdAAvY29tLmlibS53ZWJzcGhlcmUubWFuYWdlbWVudC5BZG1pbkNsaWVudEZhY3Rvcnl0ABdBZG1pbkNsaWVudEZhY3RvcnkuamF2YXQAEWNyZWF0ZUFkbWluQ2xpZW50c3EAfgAOAAAAe3QAKmNvbS5pYm0ud3Muc2NyaXB0aW5nLkNvbW1vblNjcmlwdGluZ09iamVjdHQAGkNvbW1vblNjcmlwdGluZ09iamVjdC5qYXZhdAAVY29ubmVjdFRvQWRtaW5TZXJ2aWNlc3EAfgAOAAAAaHQAKmNvbS5pYm0ud3Muc2NyaXB0aW5nLkNvbW1vblNjcmlwdGluZ09iamVjdHQAGkNvbW1vblNjcmlwdGluZ09iamVjdC5qYXZhdAAGPGluaXQ+c3EAfgAOAAAAqnQAJ2NvbS5pYm0ud3Muc2NyaXB0aW5nLkFkbWluQ29udHJvbENsaWVudHQAF0FkbWluQ29udHJvbENsaWVudC5qYXZhdAAGPGluaXQ+c3EAfgAOAAAFCXQAImNvbS5pYm0ud3Muc2NyaXB0aW5nLkFic3RyYWN0U2hlbGx0ABJBYnN0cmFjdFNoZWxsLmphdmF0ABNjcmVhdGVDb250cm9sQ2xpZW50c3EAfgAOAAAIxXQAImNvbS5pYm0ud3Muc2NyaXB0aW5nLkFic3RyYWN0U2hlbGx0ABJBYnN0cmFjdFNoZWxsLmphdmF0AANydW5zcQB+AA4AAASUdAAeY29tLmlibS53cy5zY3JpcHRpbmcuV2FzeFNoZWxsdAAOV2FzeFNoZWxsLmphdmF0AARtYWlucHBwcHBwcHBweA==
+[9/7/18 17:56:24:856 UTC] 00000001 Base64        <  encode Exit
+                                 rO0ABXNyAA9qYXZhLnV0aWwuU3RhY2sQ/irCuwmGHQIAAHhyABBqYXZhLnV0aWwuVmVjdG9y2Zd9W4A7rwEDAANJABFjYXBhY2l0eUluY3JlbWVudEkADGVsZW1lbnRDb3VudFsAC2VsZW1lbnREYXRhdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwAAAAAAAAAAF1cgATW0xqYXZhLmxhbmcuT2JqZWN0O5DOWJ8QcylsAgAAeHAAAAAKc3IAOmNvbS5pYm0ud3MubWFuYWdlbWVudC5jb25uZWN0b3IuSk1YQ29ubmVjdG9yQ29udGV4dEVsZW1lbnTblRMyYyF8sQIABUwACGNlbGxOYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7TAAIaG9zdE5hbWVxAH4AB0wACG5vZGVOYW1lcQB+AAdMAApzZXJ2ZXJOYW1lcQB+AAdbAApzdGFja1RyYWNldAAeW0xqYXZhL2xhbmcvU3RhY2tUcmFjZUVsZW1lbnQ7eHB0AAB0AAxkNTk5ZmQzM2IzMjdxAH4ACnEAfgAKdXIAHltMamF2YS5sYW5nLlN0YWNrVHJhY2VFbGVtZW50OwJGKjw8/SI5AgAAeHAAAAAUc3IAG2phdmEubGFuZy5TdGFja1RyYWNlRWxlbWVudGEJxZomNt2FAgAESQAKbGluZU51bWJlckwADmRlY2xhcmluZ0NsYXNzcQB+AAdMAAhmaWxlTmFtZXEAfgAHTAAKbWV0aG9kTmFtZXEAfgAHeHAAAABLdAA6Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5KTVhDb25uZWN0b3JDb250ZXh0RWxlbWVudHQAH0pNWENvbm5lY3RvckNvbnRleHRFbGVtZW50LmphdmF0AAY8aW5pdD5zcQB+AA4AAAA8dAAzY29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5KTVhDb25uZWN0b3JDb250ZXh0dAAYSk1YQ29ubmVjdG9yQ29udGV4dC5qYXZhdAAEcHVzaHNxAH4ADgAABkt0ADhjb20uaWJtLndzLm1hbmFnZW1lbnQuY29ubmVjdG9yLnNvYXAuU09BUENvbm5lY3RvckNsaWVudHQAGFNPQVBDb25uZWN0b3JDbGllbnQuamF2YXQAHGdldEpNWENvbm5lY3RvckNvbnRleHRIZWFkZXJzcQB+AA4AAAF4dAA4Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5zb2FwLlNPQVBDb25uZWN0b3JDbGllbnR0ABhTT0FQQ29ubmVjdG9yQ2xpZW50LmphdmF0AAlyZWNvbm5lY3RzcQB+AA4AAADsdAA4Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5zb2FwLlNPQVBDb25uZWN0b3JDbGllbnR0ABhTT0FQQ29ubmVjdG9yQ2xpZW50LmphdmF0AAY8aW5pdD5zcQB+AA7////+dAApc3VuLnJlZmxlY3QuTmF0aXZlQ29uc3RydWN0b3JBY2Nlc3NvckltcGx0ACJOYXRpdmVDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbC5qYXZhdAAMbmV3SW5zdGFuY2Uwc3EAfgAOAAAAU3QAKXN1bi5yZWZsZWN0Lk5hdGl2ZUNvbnN0cnVjdG9yQWNjZXNzb3JJbXBsdAAiTmF0aXZlQ29uc3RydWN0b3JBY2Nlc3NvckltcGwuamF2YXQAC25ld0luc3RhbmNlc3EAfgAOAAAAOXQALXN1bi5yZWZsZWN0LkRlbGVnYXRpbmdDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbHQAJkRlbGVnYXRpbmdDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbC5qYXZhdAALbmV3SW5zdGFuY2VzcQB+AA4AAAG1dAAdamF2YS5sYW5nLnJlZmxlY3QuQ29uc3RydWN0b3J0ABBDb25zdHJ1Y3Rvci5qYXZhdAALbmV3SW5zdGFuY2VzcQB+AA4AAAHJdAAvY29tLmlibS53ZWJzcGhlcmUubWFuYWdlbWVudC5BZG1pbkNsaWVudEZhY3Rvcnl0ABdBZG1pbkNsaWVudEZhY3RvcnkuamF2YXQAG2NyZWF0ZUFkbWluQ2xpZW50UHJpdmlsZWdlZHNxAH4ADgAAAH90AC9jb20uaWJtLndlYnNwaGVyZS5tYW5hZ2VtZW50LkFkbWluQ2xpZW50RmFjdG9yeXQAF0FkbWluQ2xpZW50RmFjdG9yeS5qYXZhdAAKYWNjZXNzJDAwMHNxAH4ADgAAANJ0ADFjb20uaWJtLndlYnNwaGVyZS5tYW5hZ2VtZW50LkFkbWluQ2xpZW50RmFjdG9yeSQxdAAXQWRtaW5DbGllbnRGYWN0b3J5LmphdmF0AANydW5zcQB+AA4AAAA/dAApY29tLmlibS53cy5zZWN1cml0eS51dGlsLkFjY2Vzc0NvbnRyb2xsZXJ0ABVBY2Nlc3NDb250cm9sbGVyLmphdmF0AAxkb1ByaXZpbGVnZWRzcQB+AA4AAADOdAAvY29tLmlibS53ZWJzcGhlcmUubWFuYWdlbWVudC5BZG1pbkNsaWVudEZhY3Rvcnl0ABdBZG1pbkNsaWVudEZhY3RvcnkuamF2YXQAEWNyZWF0ZUFkbWluQ2xpZW50c3EAfgAOAAAAe3QAKmNvbS5pYm0ud3Muc2NyaXB0aW5nLkNvbW1vblNjcmlwdGluZ09iamVjdHQAGkNvbW1vblNjcmlwdGluZ09iamVjdC5qYXZhdAAVY29ubmVjdFRvQWRtaW5TZXJ2aWNlc3EAfgAOAAAAaHQAKmNvbS5pYm0ud3Muc2NyaXB0aW5nLkNvbW1vblNjcmlwdGluZ09iamVjdHQAGkNvbW1vblNjcmlwdGluZ09iamVjdC5qYXZhdAAGPGluaXQ+c3EAfgAOAAAAqnQAJ2NvbS5pYm0ud3Muc2NyaXB0aW5nLkFkbWluQ29udHJvbENsaWVudHQAF0FkbWluQ29udHJvbENsaWVudC5qYXZhdAAGPGluaXQ+c3EAfgAOAAAFCXQAImNvbS5pYm0ud3Muc2NyaXB0aW5nLkFic3RyYWN0U2hlbGx0ABJBYnN0cmFjdFNoZWxsLmphdmF0ABNjcmVhdGVDb250cm9sQ2xpZW50c3EAfgAOAAAIxXQAImNvbS5pYm0ud3Muc2NyaXB0aW5nLkFic3RyYWN0U2hlbGx0ABJBYnN0cmFjdFNoZWxsLmphdmF0AANydW5zcQB+AA4AAASUdAAeY29tLmlibS53cy5zY3JpcHRpbmcuV2FzeFNoZWxsdAAOV2FzeFNoZWxsLmphdmF0AARtYWlucHBwcHBwcHBweA==
+[9/7/18 17:56:24:856 UTC] 00000001 JMXConnectorC <  serialize Exit
+                                 rO0ABXNyAA9qYXZhLnV0aWwuU3RhY2sQ/irCuwmGHQIAAHhyABBqYXZhLnV0aWwuVmVjdG9y2Zd9W4A7rwEDAANJABFjYXBhY2l0eUluY3JlbWVudEkADGVsZW1lbnRDb3VudFsAC2VsZW1lbnREYXRhdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwAAAAAAAAAAF1cgATW0xqYXZhLmxhbmcuT2JqZWN0O5DOWJ8QcylsAgAAeHAAAAAKc3IAOmNvbS5pYm0ud3MubWFuYWdlbWVudC5jb25uZWN0b3IuSk1YQ29ubmVjdG9yQ29udGV4dEVsZW1lbnTblRMyYyF8sQIABUwACGNlbGxOYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7TAAIaG9zdE5hbWVxAH4AB0wACG5vZGVOYW1lcQB+AAdMAApzZXJ2ZXJOYW1lcQB+AAdbAApzdGFja1RyYWNldAAeW0xqYXZhL2xhbmcvU3RhY2tUcmFjZUVsZW1lbnQ7eHB0AAB0AAxkNTk5ZmQzM2IzMjdxAH4ACnEAfgAKdXIAHltMamF2YS5sYW5nLlN0YWNrVHJhY2VFbGVtZW50OwJGKjw8/SI5AgAAeHAAAAAUc3IAG2phdmEubGFuZy5TdGFja1RyYWNlRWxlbWVudGEJxZomNt2FAgAESQAKbGluZU51bWJlckwADmRlY2xhcmluZ0NsYXNzcQB+AAdMAAhmaWxlTmFtZXEAfgAHTAAKbWV0aG9kTmFtZXEAfgAHeHAAAABLdAA6Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5KTVhDb25uZWN0b3JDb250ZXh0RWxlbWVudHQAH0pNWENvbm5lY3RvckNvbnRleHRFbGVtZW50LmphdmF0AAY8aW5pdD5zcQB+AA4AAAA8dAAzY29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5KTVhDb25uZWN0b3JDb250ZXh0dAAYSk1YQ29ubmVjdG9yQ29udGV4dC5qYXZhdAAEcHVzaHNxAH4ADgAABkt0ADhjb20uaWJtLndzLm1hbmFnZW1lbnQuY29ubmVjdG9yLnNvYXAuU09BUENvbm5lY3RvckNsaWVudHQAGFNPQVBDb25uZWN0b3JDbGllbnQuamF2YXQAHGdldEpNWENvbm5lY3RvckNvbnRleHRIZWFkZXJzcQB+AA4AAAF4dAA4Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5zb2FwLlNPQVBDb25uZWN0b3JDbGllbnR0ABhTT0FQQ29ubmVjdG9yQ2xpZW50LmphdmF0AAlyZWNvbm5lY3RzcQB+AA4AAADsdAA4Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5zb2FwLlNPQVBDb25uZWN0b3JDbGllbnR0ABhTT0FQQ29ubmVjdG9yQ2xpZW50LmphdmF0AAY8aW5pdD5zcQB+AA7////+dAApc3VuLnJlZmxlY3QuTmF0aXZlQ29uc3RydWN0b3JBY2Nlc3NvckltcGx0ACJOYXRpdmVDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbC5qYXZhdAAMbmV3SW5zdGFuY2Uwc3EAfgAOAAAAU3QAKXN1bi5yZWZsZWN0Lk5hdGl2ZUNvbnN0cnVjdG9yQWNjZXNzb3JJbXBsdAAiTmF0aXZlQ29uc3RydWN0b3JBY2Nlc3NvckltcGwuamF2YXQAC25ld0luc3RhbmNlc3EAfgAOAAAAOXQALXN1bi5yZWZsZWN0LkRlbGVnYXRpbmdDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbHQAJkRlbGVnYXRpbmdDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbC5qYXZhdAALbmV3SW5zdGFuY2VzcQB+AA4AAAG1dAAdamF2YS5sYW5nLnJlZmxlY3QuQ29uc3RydWN0b3J0ABBDb25zdHJ1Y3Rvci5qYXZhdAALbmV3SW5zdGFuY2VzcQB+AA4AAAHJdAAvY29tLmlibS53ZWJzcGhlcmUubWFuYWdlbWVudC5BZG1pbkNsaWVudEZhY3Rvcnl0ABdBZG1pbkNsaWVudEZhY3RvcnkuamF2YXQAG2NyZWF0ZUFkbWluQ2xpZW50UHJpdmlsZWdlZHNxAH4ADgAAAH90AC9jb20uaWJtLndlYnNwaGVyZS5tYW5hZ2VtZW50LkFkbWluQ2xpZW50RmFjdG9yeXQAF0FkbWluQ2xpZW50RmFjdG9yeS5qYXZhdAAKYWNjZXNzJDAwMHNxAH4ADgAAANJ0ADFjb20uaWJtLndlYnNwaGVyZS5tYW5hZ2VtZW50LkFkbWluQ2xpZW50RmFjdG9yeSQxdAAXQWRtaW5DbGllbnRGYWN0b3J5LmphdmF0AANydW5zcQB+AA4AAAA/dAApY29tLmlibS53cy5zZWN1cml0eS51dGlsLkFjY2Vzc0NvbnRyb2xsZXJ0ABVBY2Nlc3NDb250cm9sbGVyLmphdmF0AAxkb1ByaXZpbGVnZWRzcQB+AA4AAADOdAAvY29tLmlibS53ZWJzcGhlcmUubWFuYWdlbWVudC5BZG1pbkNsaWVudEZhY3Rvcnl0ABdBZG1pbkNsaWVudEZhY3RvcnkuamF2YXQAEWNyZWF0ZUFkbWluQ2xpZW50c3EAfgAOAAAAe3QAKmNvbS5pYm0ud3Muc2NyaXB0aW5nLkNvbW1vblNjcmlwdGluZ09iamVjdHQAGkNvbW1vblNjcmlwdGluZ09iamVjdC5qYXZhdAAVY29ubmVjdFRvQWRtaW5TZXJ2aWNlc3EAfgAOAAAAaHQAKmNvbS5pYm0ud3Muc2NyaXB0aW5nLkNvbW1vblNjcmlwdGluZ09iamVjdHQAGkNvbW1vblNjcmlwdGluZ09iamVjdC5qYXZhdAAGPGluaXQ+c3EAfgAOAAAAqnQAJ2NvbS5pYm0ud3Muc2NyaXB0aW5nLkFkbWluQ29udHJvbENsaWVudHQAF0FkbWluQ29udHJvbENsaWVudC5qYXZhdAAGPGluaXQ+c3EAfgAOAAAFCXQAImNvbS5pYm0ud3Muc2NyaXB0aW5nLkFic3RyYWN0U2hlbGx0ABJBYnN0cmFjdFNoZWxsLmphdmF0ABNjcmVhdGVDb250cm9sQ2xpZW50c3EAfgAOAAAIxXQAImNvbS5pYm0ud3Muc2NyaXB0aW5nLkFic3RyYWN0U2hlbGx0ABJBYnN0cmFjdFNoZWxsLmphdmF0AANydW5zcQB+AA4AAASUdAAeY29tLmlibS53cy5zY3JpcHRpbmcuV2FzeFNoZWxsdAAOV2FzeFNoZWxsLmphdmF0AARtYWlucHBwcHBwcHBweA==
+[9/7/18 17:56:24:856 UTC] 00000001 JMXConnectorC >  gbuildStackTrace() Entry
+[9/7/18 17:56:24:857 UTC] 00000001 JMXConnectorC <  buildStackTrace() Exit
+                                 ----------
+---- 2018-09-07T17:56:24.857
+Thread id: 1
+JMXConnectorContext 0 cell:  node:  server:  host: d599fd33b327
+com.ibm.ws.management.connector.JMXConnectorContextElement.<init>(JMXConnectorContextElement.java:75)
+com.ibm.ws.management.connector.JMXConnectorContext.push(JMXConnectorContext.java:60)
+com.ibm.ws.management.connector.soap.SOAPConnectorClient.getJMXConnectorContextHeader(SOAPConnectorClient.java:1611)
+com.ibm.ws.management.connector.soap.SOAPConnectorClient.reconnect(SOAPConnectorClient.java:376)
+com.ibm.ws.management.connector.soap.SOAPConnectorClient.<init>(SOAPConnectorClient.java:236)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
+java.lang.reflect.Constructor.newInstance(Constructor.java:437)
+com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:457)
+com.ibm.websphere.management.AdminClientFactory.access$000(AdminClientFactory.java:127)
+com.ibm.websphere.management.AdminClientFactory$1.run(AdminClientFactory.java:210)
+com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:63)
+com.ibm.websphere.management.AdminClientFactory.createAdminClient(AdminClientFactory.java:206)
+com.ibm.ws.scripting.CommonScriptingObject.connectToAdminService(CommonScriptingObject.java:123)
+com.ibm.ws.scripting.CommonScriptingObject.<init>(CommonScriptingObject.java:104)
+com.ibm.ws.scripting.AdminControlClient.<init>(AdminControlClient.java:170)
+com.ibm.ws.scripting.AbstractShell.createControlClient(AbstractShell.java:1289)
+com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2245)
+com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+
+[9/7/18 17:56:24:857 UTC] 00000001 SOAPConnector 3   setting JMXConnectorContext to: ----------
+---- 2018-09-07T17:56:24.857
+Thread id: 1
+JMXConnectorContext 0 cell:  node:  server:  host: d599fd33b327
+com.ibm.ws.management.connector.JMXConnectorContextElement.<init>(JMXConnectorContextElement.java:75)
+com.ibm.ws.management.connector.JMXConnectorContext.push(JMXConnectorContext.java:60)
+com.ibm.ws.management.connector.soap.SOAPConnectorClient.getJMXConnectorContextHeader(SOAPConnectorClient.java:1611)
+com.ibm.ws.management.connector.soap.SOAPConnectorClient.reconnect(SOAPConnectorClient.java:376)
+com.ibm.ws.management.connector.soap.SOAPConnectorClient.<init>(SOAPConnectorClient.java:236)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
+java.lang.reflect.Constructor.newInstance(Constructor.java:437)
+com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:457)
+com.ibm.websphere.management.AdminClientFactory.access$000(AdminClientFactory.java:127)
+com.ibm.websphere.management.AdminClientFactory$1.run(AdminClientFactory.java:210)
+com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:63)
+com.ibm.websphere.management.AdminClientFactory.createAdminClient(AdminClientFactory.java:206)
+com.ibm.ws.scripting.CommonScriptingObject.connectToAdminService(CommonScriptingObject.java:123)
+com.ibm.ws.scripting.CommonScriptingObject.<init>(CommonScriptingObject.java:104)
+com.ibm.ws.scripting.AdminControlClient.<init>(AdminControlClient.java:170)
+com.ibm.ws.scripting.AbstractShell.createControlClient(AbstractShell.java:1289)
+com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2245)
+com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+
+[9/7/18 17:56:24:858 UTC] 00000001 JMXConnectorC >  pop Entry
+[9/7/18 17:56:24:858 UTC] 00000001 JMXConnectorC <  pop Exit
+[9/7/18 17:56:24:858 UTC] 00000001 SOAPConnector <  getJMXConnectorContextHeader Exit
+[9/7/18 17:56:24:863 UTC] 00000001 SOAPConnector 3   soap url: http://was:8880/
+[9/7/18 17:56:24:864 UTC] 00000001 URLHandlerFac >  createURLStreamHandler for protocol=http Entry
+[9/7/18 17:56:24:864 UTC] 00000001 URLHandlerFac 3   streamHandlerTable={https=com.ibm.ws.runtime.util.utilHandlerClass@35f13bae}
+[9/7/18 17:56:24:864 UTC] 00000001 URLHandlerFac 3   handler class null retrieved from streamHandlerTable
+[9/7/18 17:56:24:864 UTC] 00000001 URLHandlerFac 3   Could not find streamHandlerClass for: http
+[9/7/18 17:56:24:864 UTC] 00000001 URLHandlerFac <  createURLStreamHandler returning handler:null Exit
+[9/7/18 17:56:24:987 UTC] 00000001 SOAPConnector 3   reconnect running into exception when using: secEnabled= false, protocol=http, please check if the remote process is running, if yes, please check if client and server both have security enabled or not. This exception could occur when client and server don't have the same security requirements, and as long as a later SOAP connection attempt using alternative SOAP properties is created successfully, this current exception is benign and can be ignored. 
+[9/7/18 17:56:24:988 UTC] 00000001 SOAPConnector 3   reconnect running into exception which is NOT a javax.net.ssl.SSLHandshakeException
+[9/7/18 17:56:24:988 UTC] 00000001 SOAPConnector <  reconnect Exit
+                                 [SOAPException: faultCode=SOAP-ENV:Client; msg=Error parsing HTTP status line &quot;\u0015\u0003\u0003\u0000\u0002\u0002&quot;: java.util.NoSuchElementException; targetException=java.lang.IllegalArgumentException: Error parsing HTTP status line "\u0015\u0003\u0003\u0000\u0002\u0002": java.util.NoSuchElementException]
+	at org.apache.soap.transport.http.SOAPHTTPConnection.send(SOAPHTTPConnection.java:475)
+	at org.apache.soap.rpc.Call.WASinvoke(Call.java:510)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient$4.run(SOAPConnectorClient.java:387)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.reconnect(SOAPConnectorClient.java:380)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.<init>(SOAPConnectorClient.java:236)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:437)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:457)
+	at com.ibm.websphere.management.AdminClientFactory.access$000(AdminClientFactory.java:127)
+	at com.ibm.websphere.management.AdminClientFactory$1.run(AdminClientFactory.java:210)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:63)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClient(AdminClientFactory.java:206)
+	at com.ibm.ws.scripting.CommonScriptingObject.connectToAdminService(CommonScriptingObject.java:123)
+	at com.ibm.ws.scripting.CommonScriptingObject.<init>(CommonScriptingObject.java:104)
+	at com.ibm.ws.scripting.AdminControlClient.<init>(AdminControlClient.java:170)
+	at com.ibm.ws.scripting.AbstractShell.createControlClient(AbstractShell.java:1289)
+	at com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2245)
+	at com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+
+[9/7/18 17:56:24:990 UTC] 00000001 AdminClientFa 3   Try to new up the com.ibm.ws.management.connector.soap.SOAPConnectorClient instance again using alternative Properties after the 1st attempt failed with
+                                 java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:437)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:457)
+	at com.ibm.websphere.management.AdminClientFactory.access$000(AdminClientFactory.java:127)
+	at com.ibm.websphere.management.AdminClientFactory$1.run(AdminClientFactory.java:210)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:63)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClient(AdminClientFactory.java:206)
+	at com.ibm.ws.scripting.CommonScriptingObject.connectToAdminService(CommonScriptingObject.java:123)
+	at com.ibm.ws.scripting.CommonScriptingObject.<init>(CommonScriptingObject.java:104)
+	at com.ibm.ws.scripting.AdminControlClient.<init>(AdminControlClient.java:170)
+	at com.ibm.ws.scripting.AbstractShell.createControlClient(AbstractShell.java:1289)
+	at com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2245)
+	at com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+Caused by: com.ibm.websphere.management.exception.ConnectorNotAvailableException: [SOAPException: faultCode=SOAP-ENV:Client; msg=Error parsing HTTP status line &quot;\u0015\u0003\u0003\u0000\u0002\u0002&quot;: java.util.NoSuchElementException; targetException=java.lang.IllegalArgumentException: Error parsing HTTP status line "\u0015\u0003\u0003\u0000\u0002\u0002": java.util.NoSuchElementException]
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.reconnect(SOAPConnectorClient.java:437)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.<init>(SOAPConnectorClient.java:236)
+	... 15 more
+Caused by: [SOAPException: faultCode=SOAP-ENV:Client; msg=Error parsing HTTP status line &quot;\u0015\u0003\u0003\u0000\u0002\u0002&quot;: java.util.NoSuchElementException; targetException=java.lang.IllegalArgumentException: Error parsing HTTP status line "\u0015\u0003\u0003\u0000\u0002\u0002": java.util.NoSuchElementException]
+	at org.apache.soap.transport.http.SOAPHTTPConnection.send(SOAPHTTPConnection.java:475)
+	at org.apache.soap.rpc.Call.WASinvoke(Call.java:510)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient$4.run(SOAPConnectorClient.java:387)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.reconnect(SOAPConnectorClient.java:380)
+	... 16 more
+
+[9/7/18 17:56:24:992 UTC] 00000001 AdminClientFa 3   Client properties: 
+[9/7/18 17:56:24:992 UTC] 00000001 AdminClientFa 3   > krb5Service=
+[9/7/18 17:56:24:993 UTC] 00000001 AdminClientFa 3   > sslConfig=DefaultSSLSettings
+[9/7/18 17:56:24:993 UTC] 00000001 AdminClientFa 3   > port=8880
+[9/7/18 17:56:24:993 UTC] 00000001 AdminClientFa 3   > com.ibm.SOAP.requestTimeout=180
+[9/7/18 17:56:24:993 UTC] 00000001 AdminClientFa 3   > securityEnabled=true
+[9/7/18 17:56:24:994 UTC] 00000001 AdminClientFa 3   > username=
+[9/7/18 17:56:24:994 UTC] 00000001 AdminClientFa 3   > com.ibm.ssl.alias=DefaultSSLSettings
+[9/7/18 17:56:24:994 UTC] 00000001 AdminClientFa 3   > type=SOAP
+[9/7/18 17:56:24:994 UTC] 00000001 AdminClientFa 3   > krb5Config=
+[9/7/18 17:56:24:995 UTC] 00000001 AdminClientFa 3   > authTarget=BasicAuth
+[9/7/18 17:56:24:999 UTC] 00000001 AdminClientFa 3   > password=
+[9/7/18 17:56:24:999 UTC] 00000001 AdminClientFa 3   > loginsource=prompt
+[9/7/18 17:56:25:000 UTC] 00000001 AdminClientFa 3   > host=was
+[9/7/18 17:56:25:000 UTC] 00000001 AdminClientFa 3   > krb5Ccache=
+[9/7/18 17:56:25:000 UTC] 00000001 SOAPConnector >  SOAPConnectorClient Entry
+[9/7/18 17:56:25:000 UTC] 00000001 SOAPConnector 3   usingJSSESocketFactory: true
+[9/7/18 17:56:25:001 UTC] 00000001 SOAPConnector 3   autoAcceptSigner false
+[9/7/18 17:56:25:001 UTC] 00000001 SSLConfigMana >  initializeClientSSL Entry
+[9/7/18 17:56:25:001 UTC] 00000001 SSLConfigMana <  initializeClientSSL Exit
+[9/7/18 17:56:25:001 UTC] 00000001 SOAPConnector >  reconnect Entry
+[9/7/18 17:56:25:002 UTC] 00000001 SOAPConnector >  setupSslSetting Entry
+                                 false
+[9/7/18 17:56:25:009 UTC] 00000001 SOAPConnector <  setupSslSetting Exit
+                                 <null>
+[9/7/18 17:56:25:010 UTC] 00000001 SOAPConnector 3   soapSslAlias: DefaultSSLSettings
+[9/7/18 17:56:25:013 UTC] 00000001 JSSEHelper    >  getInstance Entry
+[9/7/18 17:56:25:019 UTC] 00000001 JSSEHelper    3   Creating new instance of JSSEHelper.
+[9/7/18 17:56:25:019 UTC] 00000001 JSSEHelper    3   Attempting to initialize client configuration, if not already done.
+[9/7/18 17:56:25:020 UTC] 00000001 SSLConfigMana >  initializeClientSSL Entry
+[9/7/18 17:56:25:020 UTC] 00000001 SSLConfigMana <  initializeClientSSL Exit
+[9/7/18 17:56:25:020 UTC] 00000001 JSSEHelper    <  getInstance Exit
+                                 com.ibm.websphere.ssl.JSSEHelper@8134619d
+[9/7/18 17:56:25:021 UTC] 00000001 JSSEHelper    >  getProperties Entry
+                                 DefaultSSLSettings
+                                 {com.ibm.ssl.remoteHost=was, com.ibm.ssl.direction=outbound, com.ibm.ssl.remotePort=8880, com.ibm.ssl.endPointName=ADMIN_SOAP}
+                                 <null>
+[9/7/18 17:56:25:021 UTC] 00000001 JSSEHelper    >  getSSLPropertiesOnThread Entry
+[9/7/18 17:56:25:023 UTC] 00000001 ThreadManager >  getProperties Entry
+[9/7/18 17:56:25:024 UTC] 00000001 ThreadManager <  getProperties Exit
+[9/7/18 17:56:25:024 UTC] 00000001 ThreadManager >  getThreadContext Entry
+[9/7/18 17:56:25:029 UTC] 00000001 ThreadManager <  getThreadContext Exit
+[9/7/18 17:56:25:031 UTC] 00000001 ThreadContext >  getProperties Entry
+[9/7/18 17:56:25:031 UTC] 00000001 ThreadContext <  getProperties Exit
+[9/7/18 17:56:25:032 UTC] 00000001 JSSEHelper    >  getSSLPropertiesOnThread Entry
+                                 Thread properties are NULL.
+[9/7/18 17:56:25:032 UTC] 00000001 SSLConfigMana >  getPropertiesFromDynamicSelectionInfo Entry
+                                 {com.ibm.ssl.remoteHost=was, com.ibm.ssl.direction=outbound, com.ibm.ssl.remotePort=8880, com.ibm.ssl.endPointName=ADMIN_SOAP}
+[9/7/18 17:56:25:032 UTC] 00000001 SSLConfigMana <  getPropertiesFromDynamicSelectionInfo -> null (no dynamic selections configured) Exit
+[9/7/18 17:56:25:032 UTC] 00000001 SSLConfigMana >  getProperties Entry
+                                 DefaultSSLSettings
+[9/7/18 17:56:25:033 UTC] 00000001 SSLConfigMana <  getProperties Exit
+[9/7/18 17:56:25:033 UTC] 00000001 SSLConfigMana >  getSSLConfig Entry
+                                 DefaultSSLSettings
+[9/7/18 17:56:25:033 UTC] 00000001 SSLConfigMana <  getSSLConfig Exit
+                                 <null>
+[9/7/18 17:56:25:033 UTC] 00000001 JSSEHelper    <  getProperties -> default Exit
+[9/7/18 17:56:25:033 UTC] 00000001 SSLConfigMana >  getDefaultSSLConfig Entry
+[9/7/18 17:56:25:034 UTC] 00000001 SSLConfigMana >  getGlobalProperty Entry
+                                 com.ibm.websphere.ssl.ignore.jvm.keystores
+                                 false
+[9/7/18 17:56:25:034 UTC] 00000001 SSLConfigMana <  getGlobalProperty -> false Exit
+[9/7/18 17:56:25:034 UTC] 00000001 SSLConfigMana 3   defaultAlias: null
+[9/7/18 17:56:25:034 UTC] 00000001 SSLConfig     3   keyStoreType: null
+[9/7/18 17:56:25:034 UTC] 00000001 SSLConfig     3   trustStoreType: null
+[9/7/18 17:56:25:035 UTC] 00000001 SSLConfig     3   keyStore: null
+[9/7/18 17:56:25:039 UTC] 00000001 SSLConfig     3   keyStorePassword: null
+[9/7/18 17:56:25:039 UTC] 00000001 SSLConfig     3   trustStore: null
+[9/7/18 17:56:25:040 UTC] 00000001 SSLConfig     3   trustStorePassword: null
+[9/7/18 17:56:25:040 UTC] 00000001 SSLConfig     >  requiredPropertiesArePresent Entry
+[9/7/18 17:56:25:040 UTC] 00000001 SSLConfig     <  requiredPropertiesArePresent -> false Exit
+[9/7/18 17:56:25:040 UTC] 00000001 SSLConfigMana <  getDefaultSSLConfig -> null Exit
+[9/7/18 17:56:25:088 UTC] 00000001 TraceNLS      1   No message text associated with key CWSCF0002I:.The.client.code.is.attempting.to.load.the.security.configuration.the.server.and.this.operation.is.not.allowed. in bundle com.ibm.ejs.resources.security
+[9/7/18 17:56:25:051 UTC] 00000001 SecurityObjec I   CWSCF0002I: The client code is attempting to load the security configuration the server and this operation is not allowed.
+[9/7/18 17:56:25:090 UTC] 00000001 RSAPropagatio 3   Initializing certificate alias cache, max size is 0
+[9/7/18 17:56:25:090 UTC] 00000001 RSAPropagatio >  RSAPropagationManager <init> Entry
+[9/7/18 17:56:25:090 UTC] 00000001 ServerStatusH 3   isRunningInServerMode=false
+[9/7/18 17:56:25:091 UTC] 00000001 RSAPropagatio <  RSAPropagationManager <init> Exit
+[9/7/18 17:56:25:091 UTC] 00000001 ServerStatusH 3   isRunningInServerMode=false
+[9/7/18 17:56:25:091 UTC] 00000001 ServerStatusH 3   isRunningInServerMode=false
+[9/7/18 17:56:25:104 UTC] 00000001 RoleBasedAuth >  RoleBasedAuthorizerNullImpl Entry
+[9/7/18 17:56:25:104 UTC] 00000001 RoleBasedAuth <  RoleBasedAuthorizerNullImpl Exit
+[9/7/18 17:56:25:104 UTC] 00000001 SecurityHelpe >  isKerberosEnabled (internal = false) Entry
+[9/7/18 17:56:25:105 UTC] 00000001 SecurityHelpe <  isKerberosEnabled(false) Exit
+[9/7/18 17:56:25:105 UTC] 00000001 SOAPConnector 3   reconnect setting context 1.0.0
+[9/7/18 17:56:25:105 UTC] 00000001 SOAPConnector >  getJMXConnectorContextHeader Entry
+[9/7/18 17:56:25:105 UTC] 00000001 JMXConnectorC >  push Entry
+[9/7/18 17:56:25:106 UTC] 00000001 AdminServiceF >  getAdminService Entry
+[9/7/18 17:56:25:106 UTC] 00000001 AdminContext  >  peek Entry
+[9/7/18 17:56:25:106 UTC] 00000001 AdminContext  >  peek Entry
+[9/7/18 17:56:25:106 UTC] 00000001 AdminServiceF <  getAdminService Exit
+                                 <null>
+[9/7/18 17:56:25:106 UTC] 00000001 JMXConnectorC <  push Exit
+[9/7/18 17:56:25:107 UTC] 00000001 JMXConnectorC >  serialize Entry
+[9/7/18 17:56:25:108 UTC] 00000001 Base64        >  encode Entry
+                                     aced0005 7372000f 6a617661 2e757469 6c2e5374 61636b10 fe2ac2bb 09861d02 
+    00007872 00106a61 76612e75 74696c2e 56656374 6f72d997 7d5b803b af010300 
+    03490011 63617061 63697479 496e6372 656d656e 7449000c 656c656d 656e7443 
+    6f756e74 5b000b65 6c656d65 6e744461 74617400 135b4c6a 6176612f 6c616e67 
+    2f4f626a 6563743b 78700000 00000000 00017572 00135b4c 6a617661 2e6c616e 
+    672e4f62 6a656374 3b90ce58 9f107329 6c020000 78700000 000a7372 003a636f 
+    6d2e6962 6d2e7773 2e6d616e 6167656d 656e742e 636f6e6e 6563746f 722e4a4d 
+    58436f6e 6e656374 6f72436f 6e746578 74456c65 6d656e74 db951332 63217cb1 
+    0200054c 00086365 6c6c4e61 6d657400 124c6a61 76612f6c 616e672f 53747269 
+    6e673b4c 0008686f 73744e61 6d657100 7e00074c 00086e6f 64654e61 6d657100 
+    7e00074c 000a7365 72766572 4e616d65 71007e00 075b000a 73746163 6b547261 
+    63657400 1e5b4c6a 6176612f 6c616e67 2f537461 636b5472 61636545 6c656d65 
+    6e743b78 70740000 74000c64 35393966 64333362 33323771 007e000a 71007e00 
+    0a757200 1e5b4c6a 6176612e 6c616e67 2e537461 636b5472 61636545 6c656d65 
+    6e743b02 462a3c3c fd223902 00007870 00000014 7372001b 6a617661 2e6c616e 
+    672e5374 61636b54 72616365 456c656d 656e7461 09c59a26 36dd8502 00044900 
+    0a6c696e 654e756d 6265724c 000e6465 636c6172 696e6743 6c617373 71007e00 
+    074c0008 66696c65 4e616d65 71007e00 074c000a 6d657468 6f644e61 6d657100 
+    7e000778 70000000 4b74003a 636f6d2e 69626d2e 77732e6d 616e6167 656d656e 
+    742e636f 6e6e6563 746f722e 4a4d5843 6f6e6e65 63746f72 436f6e74 65787445 
+    6c656d65 6e747400 1f4a4d58 436f6e6e 6563746f 72436f6e 74657874 456c656d 
+    656e742e 6a617661 7400063c 696e6974 3e737100 7e000e00 00003c74 0033636f 
+    6d2e6962 6d2e7773 2e6d616e 6167656d 656e742e 636f6e6e 6563746f 722e4a4d 
+    58436f6e 6e656374 6f72436f 6e746578 74740018 4a4d5843 6f6e6e65 63746f72 
+    436f6e74 6578742e 6a617661 74000470 75736873 71007e00 0e000006 4b740038 
+    636f6d2e 69626d2e 77732e6d 616e6167 656d656e 742e636f 6e6e6563 746f722e 
+    736f6170 2e534f41 50436f6e 6e656374 6f72436c 69656e74 74001853 4f415043 
+    6f6e6e65 63746f72 436c6965 6e742e6a 61766174 001c6765 744a4d58 436f6e6e 
+    6563746f 72436f6e 74657874 48656164 65727371 007e000e 00000178 74003863 
+    6f6d2e69 626d2e77 732e6d61 6e616765 6d656e74 2e636f6e 6e656374 6f722e73 
+    6f61702e 534f4150 436f6e6e 6563746f 72436c69 656e7474 0018534f 4150436f 
+    6e6e6563 746f7243 6c69656e 742e6a61 76617400 09726563 6f6e6e65 63747371 
+    007e000e 000000ec 74003863 6f6d2e69 626d2e77 732e6d61 6e616765 6d656e74 
+    2e636f6e 6e656374 6f722e73 6f61702e 534f4150 436f6e6e 6563746f 72436c69 
+    656e7474 0018534f 4150436f 6e6e6563 746f7243 6c69656e 742e6a61 76617400 
+    063c696e 69743e73 71007e00 0effffff fe740029 73756e2e 7265666c 6563742e 
+    4e617469 7665436f 6e737472 7563746f 72416363 6573736f 72496d70 6c740022 
+    4e617469 7665436f 6e737472 7563746f 72416363 6573736f 72496d70 6c2e6a61 
+    76617400 0c6e6577 496e7374 616e6365 30737100 7e000e00 00005374 00297375 
+    6e2e7265 666c6563 742e4e61 74697665 436f6e73 74727563 746f7241 63636573 
+    736f7249 6d706c74 00224e61 74697665 436f6e73 74727563 746f7241 63636573 
+    736f7249 6d706c2e 6a617661 74000b6e 6577496e 7374616e 63657371 007e000e 
+    00000039 74002d73 756e2e72 65666c65 63742e44 656c6567 6174696e 67436f6e 
+    73747275 63746f72 41636365 73736f72 496d706c 74002644 656c6567 6174696e 
+    67436f6e 73747275 63746f72 41636365 73736f72 496d706c 2e6a6176 6174000b 
+    6e657749 6e737461 6e636573 71007e00 0e000001 b574001d 6a617661 2e6c616e 
+    672e7265 666c6563 742e436f 6e737472 7563746f 72740010 436f6e73 74727563 
+    746f722e 6a617661 74000b6e 6577496e 7374616e 63657371 007e000e 000001ef 
+    74002f63 6f6d2e69 626d2e77 65627370 68657265 2e6d616e 6167656d 656e742e 
+    41646d69 6e436c69 656e7446 6163746f 72797400 1741646d 696e436c 69656e74 
+    46616374 6f72792e 6a617661 74001b63 72656174 6541646d 696e436c 69656e74 
+    50726976 696c6567 65647371 007e000e 0000007f 74002f63 6f6d2e69 626d2e77 
+    65627370 68657265 2e6d616e 6167656d 656e742e 41646d69 6e436c69 656e7446 
+    6163746f 72797400 1741646d 696e436c 69656e74 46616374 6f72792e 6a617661 
+    74000a61 63636573 73243030 30737100 7e000e00 0000d274 0031636f 6d2e6962 
+    6d2e7765 62737068 6572652e 6d616e61 67656d65 6e742e41 646d696e 436c6965 
+    6e744661 63746f72 79243174 00174164 6d696e43 6c69656e 74466163 746f7279 
+    2e6a6176 61740003 72756e73 71007e00 0e000000 3f740029 636f6d2e 69626d2e 
+    77732e73 65637572 6974792e 7574696c 2e416363 65737343 6f6e7472 6f6c6c65 
+    72740015 41636365 7373436f 6e74726f 6c6c6572 2e6a6176 6174000c 646f5072 
+    6976696c 65676564 7371007e 000e0000 00ce7400 2f636f6d 2e69626d 2e776562 
+    73706865 72652e6d 616e6167 656d656e 742e4164 6d696e43 6c69656e 74466163 
+    746f7279 74001741 646d696e 436c6965 6e744661 63746f72 792e6a61 76617400 
+    11637265 61746541 646d696e 436c6965 6e747371 007e000e 0000007b 74002a63 
+    6f6d2e69 626d2e77 732e7363 72697074 696e672e 436f6d6d 6f6e5363 72697074 
+    696e674f 626a6563 7474001a 436f6d6d 6f6e5363 72697074 696e674f 626a6563 
+    742e6a61 76617400 15636f6e 6e656374 546f4164 6d696e53 65727669 63657371 
+    007e000e 00000068 74002a63 6f6d2e69 626d2e77 732e7363 72697074 696e672e 
+    436f6d6d 6f6e5363 72697074 696e674f 626a6563 7474001a 436f6d6d 6f6e5363 
+    72697074 696e674f 626a6563 742e6a61 76617400 063c696e 69743e73 71007e00 
+    0e000000 aa740027 636f6d2e 69626d2e 77732e73 63726970 74696e67 2e41646d 
+    696e436f 6e74726f 6c436c69 656e7474 00174164 6d696e43 6f6e7472 6f6c436c 
+    69656e74 2e6a6176 61740006 3c696e69 743e7371 007e000e 00000509 74002263 
+    6f6d2e69 626d2e77 732e7363 72697074 696e672e 41627374 72616374 5368656c 
+    6c740012 41627374 72616374 5368656c 6c2e6a61 76617400 13637265 61746543 
+    6f6e7472 6f6c436c 69656e74 7371007e 000e0000 08c57400 22636f6d 2e69626d 
+    2e77732e 73637269 7074696e 672e4162 73747261 63745368 656c6c74 00124162 
+    73747261 63745368 656c6c2e 6a617661 74000372 756e7371 007e000e 00000494 
+    74001e63 6f6d2e69 626d2e77 732e7363 72697074 696e672e 57617378 5368656c 
+    6c74000e 57617378 5368656c 6c2e6a61 76617400 046d6169 6e707070 70707070 
+    707078
+[9/7/18 17:56:25:116 UTC] 00000001 Base64        >  encode Entry
+                                 [B@38e4da83
+                                 0
+                                 2563
+[9/7/18 17:56:25:117 UTC] 00000001 Base64        <  encode Exit
+                                 rO0ABXNyAA9qYXZhLnV0aWwuU3RhY2sQ/irCuwmGHQIAAHhyABBqYXZhLnV0aWwuVmVjdG9y2Zd9W4A7rwEDAANJABFjYXBhY2l0eUluY3JlbWVudEkADGVsZW1lbnRDb3VudFsAC2VsZW1lbnREYXRhdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwAAAAAAAAAAF1cgATW0xqYXZhLmxhbmcuT2JqZWN0O5DOWJ8QcylsAgAAeHAAAAAKc3IAOmNvbS5pYm0ud3MubWFuYWdlbWVudC5jb25uZWN0b3IuSk1YQ29ubmVjdG9yQ29udGV4dEVsZW1lbnTblRMyYyF8sQIABUwACGNlbGxOYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7TAAIaG9zdE5hbWVxAH4AB0wACG5vZGVOYW1lcQB+AAdMAApzZXJ2ZXJOYW1lcQB+AAdbAApzdGFja1RyYWNldAAeW0xqYXZhL2xhbmcvU3RhY2tUcmFjZUVsZW1lbnQ7eHB0AAB0AAxkNTk5ZmQzM2IzMjdxAH4ACnEAfgAKdXIAHltMamF2YS5sYW5nLlN0YWNrVHJhY2VFbGVtZW50OwJGKjw8/SI5AgAAeHAAAAAUc3IAG2phdmEubGFuZy5TdGFja1RyYWNlRWxlbWVudGEJxZomNt2FAgAESQAKbGluZU51bWJlckwADmRlY2xhcmluZ0NsYXNzcQB+AAdMAAhmaWxlTmFtZXEAfgAHTAAKbWV0aG9kTmFtZXEAfgAHeHAAAABLdAA6Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5KTVhDb25uZWN0b3JDb250ZXh0RWxlbWVudHQAH0pNWENvbm5lY3RvckNvbnRleHRFbGVtZW50LmphdmF0AAY8aW5pdD5zcQB+AA4AAAA8dAAzY29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5KTVhDb25uZWN0b3JDb250ZXh0dAAYSk1YQ29ubmVjdG9yQ29udGV4dC5qYXZhdAAEcHVzaHNxAH4ADgAABkt0ADhjb20uaWJtLndzLm1hbmFnZW1lbnQuY29ubmVjdG9yLnNvYXAuU09BUENvbm5lY3RvckNsaWVudHQAGFNPQVBDb25uZWN0b3JDbGllbnQuamF2YXQAHGdldEpNWENvbm5lY3RvckNvbnRleHRIZWFkZXJzcQB+AA4AAAF4dAA4Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5zb2FwLlNPQVBDb25uZWN0b3JDbGllbnR0ABhTT0FQQ29ubmVjdG9yQ2xpZW50LmphdmF0AAlyZWNvbm5lY3RzcQB+AA4AAADsdAA4Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5zb2FwLlNPQVBDb25uZWN0b3JDbGllbnR0ABhTT0FQQ29ubmVjdG9yQ2xpZW50LmphdmF0AAY8aW5pdD5zcQB+AA7////+dAApc3VuLnJlZmxlY3QuTmF0aXZlQ29uc3RydWN0b3JBY2Nlc3NvckltcGx0ACJOYXRpdmVDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbC5qYXZhdAAMbmV3SW5zdGFuY2Uwc3EAfgAOAAAAU3QAKXN1bi5yZWZsZWN0Lk5hdGl2ZUNvbnN0cnVjdG9yQWNjZXNzb3JJbXBsdAAiTmF0aXZlQ29uc3RydWN0b3JBY2Nlc3NvckltcGwuamF2YXQAC25ld0luc3RhbmNlc3EAfgAOAAAAOXQALXN1bi5yZWZsZWN0LkRlbGVnYXRpbmdDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbHQAJkRlbGVnYXRpbmdDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbC5qYXZhdAALbmV3SW5zdGFuY2VzcQB+AA4AAAG1dAAdamF2YS5sYW5nLnJlZmxlY3QuQ29uc3RydWN0b3J0ABBDb25zdHJ1Y3Rvci5qYXZhdAALbmV3SW5zdGFuY2VzcQB+AA4AAAHvdAAvY29tLmlibS53ZWJzcGhlcmUubWFuYWdlbWVudC5BZG1pbkNsaWVudEZhY3Rvcnl0ABdBZG1pbkNsaWVudEZhY3RvcnkuamF2YXQAG2NyZWF0ZUFkbWluQ2xpZW50UHJpdmlsZWdlZHNxAH4ADgAAAH90AC9jb20uaWJtLndlYnNwaGVyZS5tYW5hZ2VtZW50LkFkbWluQ2xpZW50RmFjdG9yeXQAF0FkbWluQ2xpZW50RmFjdG9yeS5qYXZhdAAKYWNjZXNzJDAwMHNxAH4ADgAAANJ0ADFjb20uaWJtLndlYnNwaGVyZS5tYW5hZ2VtZW50LkFkbWluQ2xpZW50RmFjdG9yeSQxdAAXQWRtaW5DbGllbnRGYWN0b3J5LmphdmF0AANydW5zcQB+AA4AAAA/dAApY29tLmlibS53cy5zZWN1cml0eS51dGlsLkFjY2Vzc0NvbnRyb2xsZXJ0ABVBY2Nlc3NDb250cm9sbGVyLmphdmF0AAxkb1ByaXZpbGVnZWRzcQB+AA4AAADOdAAvY29tLmlibS53ZWJzcGhlcmUubWFuYWdlbWVudC5BZG1pbkNsaWVudEZhY3Rvcnl0ABdBZG1pbkNsaWVudEZhY3RvcnkuamF2YXQAEWNyZWF0ZUFkbWluQ2xpZW50c3EAfgAOAAAAe3QAKmNvbS5pYm0ud3Muc2NyaXB0aW5nLkNvbW1vblNjcmlwdGluZ09iamVjdHQAGkNvbW1vblNjcmlwdGluZ09iamVjdC5qYXZhdAAVY29ubmVjdFRvQWRtaW5TZXJ2aWNlc3EAfgAOAAAAaHQAKmNvbS5pYm0ud3Muc2NyaXB0aW5nLkNvbW1vblNjcmlwdGluZ09iamVjdHQAGkNvbW1vblNjcmlwdGluZ09iamVjdC5qYXZhdAAGPGluaXQ+c3EAfgAOAAAAqnQAJ2NvbS5pYm0ud3Muc2NyaXB0aW5nLkFkbWluQ29udHJvbENsaWVudHQAF0FkbWluQ29udHJvbENsaWVudC5qYXZhdAAGPGluaXQ+c3EAfgAOAAAFCXQAImNvbS5pYm0ud3Muc2NyaXB0aW5nLkFic3RyYWN0U2hlbGx0ABJBYnN0cmFjdFNoZWxsLmphdmF0ABNjcmVhdGVDb250cm9sQ2xpZW50c3EAfgAOAAAIxXQAImNvbS5pYm0ud3Muc2NyaXB0aW5nLkFic3RyYWN0U2hlbGx0ABJBYnN0cmFjdFNoZWxsLmphdmF0AANydW5zcQB+AA4AAASUdAAeY29tLmlibS53cy5zY3JpcHRpbmcuV2FzeFNoZWxsdAAOV2FzeFNoZWxsLmphdmF0AARtYWlucHBwcHBwcHBweA==
+[9/7/18 17:56:25:118 UTC] 00000001 Base64        <  encode Exit
+                                 rO0ABXNyAA9qYXZhLnV0aWwuU3RhY2sQ/irCuwmGHQIAAHhyABBqYXZhLnV0aWwuVmVjdG9y2Zd9W4A7rwEDAANJABFjYXBhY2l0eUluY3JlbWVudEkADGVsZW1lbnRDb3VudFsAC2VsZW1lbnREYXRhdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwAAAAAAAAAAF1cgATW0xqYXZhLmxhbmcuT2JqZWN0O5DOWJ8QcylsAgAAeHAAAAAKc3IAOmNvbS5pYm0ud3MubWFuYWdlbWVudC5jb25uZWN0b3IuSk1YQ29ubmVjdG9yQ29udGV4dEVsZW1lbnTblRMyYyF8sQIABUwACGNlbGxOYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7TAAIaG9zdE5hbWVxAH4AB0wACG5vZGVOYW1lcQB+AAdMAApzZXJ2ZXJOYW1lcQB+AAdbAApzdGFja1RyYWNldAAeW0xqYXZhL2xhbmcvU3RhY2tUcmFjZUVsZW1lbnQ7eHB0AAB0AAxkNTk5ZmQzM2IzMjdxAH4ACnEAfgAKdXIAHltMamF2YS5sYW5nLlN0YWNrVHJhY2VFbGVtZW50OwJGKjw8/SI5AgAAeHAAAAAUc3IAG2phdmEubGFuZy5TdGFja1RyYWNlRWxlbWVudGEJxZomNt2FAgAESQAKbGluZU51bWJlckwADmRlY2xhcmluZ0NsYXNzcQB+AAdMAAhmaWxlTmFtZXEAfgAHTAAKbWV0aG9kTmFtZXEAfgAHeHAAAABLdAA6Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5KTVhDb25uZWN0b3JDb250ZXh0RWxlbWVudHQAH0pNWENvbm5lY3RvckNvbnRleHRFbGVtZW50LmphdmF0AAY8aW5pdD5zcQB+AA4AAAA8dAAzY29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5KTVhDb25uZWN0b3JDb250ZXh0dAAYSk1YQ29ubmVjdG9yQ29udGV4dC5qYXZhdAAEcHVzaHNxAH4ADgAABkt0ADhjb20uaWJtLndzLm1hbmFnZW1lbnQuY29ubmVjdG9yLnNvYXAuU09BUENvbm5lY3RvckNsaWVudHQAGFNPQVBDb25uZWN0b3JDbGllbnQuamF2YXQAHGdldEpNWENvbm5lY3RvckNvbnRleHRIZWFkZXJzcQB+AA4AAAF4dAA4Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5zb2FwLlNPQVBDb25uZWN0b3JDbGllbnR0ABhTT0FQQ29ubmVjdG9yQ2xpZW50LmphdmF0AAlyZWNvbm5lY3RzcQB+AA4AAADsdAA4Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5zb2FwLlNPQVBDb25uZWN0b3JDbGllbnR0ABhTT0FQQ29ubmVjdG9yQ2xpZW50LmphdmF0AAY8aW5pdD5zcQB+AA7////+dAApc3VuLnJlZmxlY3QuTmF0aXZlQ29uc3RydWN0b3JBY2Nlc3NvckltcGx0ACJOYXRpdmVDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbC5qYXZhdAAMbmV3SW5zdGFuY2Uwc3EAfgAOAAAAU3QAKXN1bi5yZWZsZWN0Lk5hdGl2ZUNvbnN0cnVjdG9yQWNjZXNzb3JJbXBsdAAiTmF0aXZlQ29uc3RydWN0b3JBY2Nlc3NvckltcGwuamF2YXQAC25ld0luc3RhbmNlc3EAfgAOAAAAOXQALXN1bi5yZWZsZWN0LkRlbGVnYXRpbmdDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbHQAJkRlbGVnYXRpbmdDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbC5qYXZhdAALbmV3SW5zdGFuY2VzcQB+AA4AAAG1dAAdamF2YS5sYW5nLnJlZmxlY3QuQ29uc3RydWN0b3J0ABBDb25zdHJ1Y3Rvci5qYXZhdAALbmV3SW5zdGFuY2VzcQB+AA4AAAHvdAAvY29tLmlibS53ZWJzcGhlcmUubWFuYWdlbWVudC5BZG1pbkNsaWVudEZhY3Rvcnl0ABdBZG1pbkNsaWVudEZhY3RvcnkuamF2YXQAG2NyZWF0ZUFkbWluQ2xpZW50UHJpdmlsZWdlZHNxAH4ADgAAAH90AC9jb20uaWJtLndlYnNwaGVyZS5tYW5hZ2VtZW50LkFkbWluQ2xpZW50RmFjdG9yeXQAF0FkbWluQ2xpZW50RmFjdG9yeS5qYXZhdAAKYWNjZXNzJDAwMHNxAH4ADgAAANJ0ADFjb20uaWJtLndlYnNwaGVyZS5tYW5hZ2VtZW50LkFkbWluQ2xpZW50RmFjdG9yeSQxdAAXQWRtaW5DbGllbnRGYWN0b3J5LmphdmF0AANydW5zcQB+AA4AAAA/dAApY29tLmlibS53cy5zZWN1cml0eS51dGlsLkFjY2Vzc0NvbnRyb2xsZXJ0ABVBY2Nlc3NDb250cm9sbGVyLmphdmF0AAxkb1ByaXZpbGVnZWRzcQB+AA4AAADOdAAvY29tLmlibS53ZWJzcGhlcmUubWFuYWdlbWVudC5BZG1pbkNsaWVudEZhY3Rvcnl0ABdBZG1pbkNsaWVudEZhY3RvcnkuamF2YXQAEWNyZWF0ZUFkbWluQ2xpZW50c3EAfgAOAAAAe3QAKmNvbS5pYm0ud3Muc2NyaXB0aW5nLkNvbW1vblNjcmlwdGluZ09iamVjdHQAGkNvbW1vblNjcmlwdGluZ09iamVjdC5qYXZhdAAVY29ubmVjdFRvQWRtaW5TZXJ2aWNlc3EAfgAOAAAAaHQAKmNvbS5pYm0ud3Muc2NyaXB0aW5nLkNvbW1vblNjcmlwdGluZ09iamVjdHQAGkNvbW1vblNjcmlwdGluZ09iamVjdC5qYXZhdAAGPGluaXQ+c3EAfgAOAAAAqnQAJ2NvbS5pYm0ud3Muc2NyaXB0aW5nLkFkbWluQ29udHJvbENsaWVudHQAF0FkbWluQ29udHJvbENsaWVudC5qYXZhdAAGPGluaXQ+c3EAfgAOAAAFCXQAImNvbS5pYm0ud3Muc2NyaXB0aW5nLkFic3RyYWN0U2hlbGx0ABJBYnN0cmFjdFNoZWxsLmphdmF0ABNjcmVhdGVDb250cm9sQ2xpZW50c3EAfgAOAAAIxXQAImNvbS5pYm0ud3Muc2NyaXB0aW5nLkFic3RyYWN0U2hlbGx0ABJBYnN0cmFjdFNoZWxsLmphdmF0AANydW5zcQB+AA4AAASUdAAeY29tLmlibS53cy5zY3JpcHRpbmcuV2FzeFNoZWxsdAAOV2FzeFNoZWxsLmphdmF0AARtYWlucHBwcHBwcHBweA==
+[9/7/18 17:56:25:118 UTC] 00000001 JMXConnectorC <  serialize Exit
+                                 rO0ABXNyAA9qYXZhLnV0aWwuU3RhY2sQ/irCuwmGHQIAAHhyABBqYXZhLnV0aWwuVmVjdG9y2Zd9W4A7rwEDAANJABFjYXBhY2l0eUluY3JlbWVudEkADGVsZW1lbnRDb3VudFsAC2VsZW1lbnREYXRhdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwAAAAAAAAAAF1cgATW0xqYXZhLmxhbmcuT2JqZWN0O5DOWJ8QcylsAgAAeHAAAAAKc3IAOmNvbS5pYm0ud3MubWFuYWdlbWVudC5jb25uZWN0b3IuSk1YQ29ubmVjdG9yQ29udGV4dEVsZW1lbnTblRMyYyF8sQIABUwACGNlbGxOYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7TAAIaG9zdE5hbWVxAH4AB0wACG5vZGVOYW1lcQB+AAdMAApzZXJ2ZXJOYW1lcQB+AAdbAApzdGFja1RyYWNldAAeW0xqYXZhL2xhbmcvU3RhY2tUcmFjZUVsZW1lbnQ7eHB0AAB0AAxkNTk5ZmQzM2IzMjdxAH4ACnEAfgAKdXIAHltMamF2YS5sYW5nLlN0YWNrVHJhY2VFbGVtZW50OwJGKjw8/SI5AgAAeHAAAAAUc3IAG2phdmEubGFuZy5TdGFja1RyYWNlRWxlbWVudGEJxZomNt2FAgAESQAKbGluZU51bWJlckwADmRlY2xhcmluZ0NsYXNzcQB+AAdMAAhmaWxlTmFtZXEAfgAHTAAKbWV0aG9kTmFtZXEAfgAHeHAAAABLdAA6Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5KTVhDb25uZWN0b3JDb250ZXh0RWxlbWVudHQAH0pNWENvbm5lY3RvckNvbnRleHRFbGVtZW50LmphdmF0AAY8aW5pdD5zcQB+AA4AAAA8dAAzY29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5KTVhDb25uZWN0b3JDb250ZXh0dAAYSk1YQ29ubmVjdG9yQ29udGV4dC5qYXZhdAAEcHVzaHNxAH4ADgAABkt0ADhjb20uaWJtLndzLm1hbmFnZW1lbnQuY29ubmVjdG9yLnNvYXAuU09BUENvbm5lY3RvckNsaWVudHQAGFNPQVBDb25uZWN0b3JDbGllbnQuamF2YXQAHGdldEpNWENvbm5lY3RvckNvbnRleHRIZWFkZXJzcQB+AA4AAAF4dAA4Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5zb2FwLlNPQVBDb25uZWN0b3JDbGllbnR0ABhTT0FQQ29ubmVjdG9yQ2xpZW50LmphdmF0AAlyZWNvbm5lY3RzcQB+AA4AAADsdAA4Y29tLmlibS53cy5tYW5hZ2VtZW50LmNvbm5lY3Rvci5zb2FwLlNPQVBDb25uZWN0b3JDbGllbnR0ABhTT0FQQ29ubmVjdG9yQ2xpZW50LmphdmF0AAY8aW5pdD5zcQB+AA7////+dAApc3VuLnJlZmxlY3QuTmF0aXZlQ29uc3RydWN0b3JBY2Nlc3NvckltcGx0ACJOYXRpdmVDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbC5qYXZhdAAMbmV3SW5zdGFuY2Uwc3EAfgAOAAAAU3QAKXN1bi5yZWZsZWN0Lk5hdGl2ZUNvbnN0cnVjdG9yQWNjZXNzb3JJbXBsdAAiTmF0aXZlQ29uc3RydWN0b3JBY2Nlc3NvckltcGwuamF2YXQAC25ld0luc3RhbmNlc3EAfgAOAAAAOXQALXN1bi5yZWZsZWN0LkRlbGVnYXRpbmdDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbHQAJkRlbGVnYXRpbmdDb25zdHJ1Y3RvckFjY2Vzc29ySW1wbC5qYXZhdAALbmV3SW5zdGFuY2VzcQB+AA4AAAG1dAAdamF2YS5sYW5nLnJlZmxlY3QuQ29uc3RydWN0b3J0ABBDb25zdHJ1Y3Rvci5qYXZhdAALbmV3SW5zdGFuY2VzcQB+AA4AAAHvdAAvY29tLmlibS53ZWJzcGhlcmUubWFuYWdlbWVudC5BZG1pbkNsaWVudEZhY3Rvcnl0ABdBZG1pbkNsaWVudEZhY3RvcnkuamF2YXQAG2NyZWF0ZUFkbWluQ2xpZW50UHJpdmlsZWdlZHNxAH4ADgAAAH90AC9jb20uaWJtLndlYnNwaGVyZS5tYW5hZ2VtZW50LkFkbWluQ2xpZW50RmFjdG9yeXQAF0FkbWluQ2xpZW50RmFjdG9yeS5qYXZhdAAKYWNjZXNzJDAwMHNxAH4ADgAAANJ0ADFjb20uaWJtLndlYnNwaGVyZS5tYW5hZ2VtZW50LkFkbWluQ2xpZW50RmFjdG9yeSQxdAAXQWRtaW5DbGllbnRGYWN0b3J5LmphdmF0AANydW5zcQB+AA4AAAA/dAApY29tLmlibS53cy5zZWN1cml0eS51dGlsLkFjY2Vzc0NvbnRyb2xsZXJ0ABVBY2Nlc3NDb250cm9sbGVyLmphdmF0AAxkb1ByaXZpbGVnZWRzcQB+AA4AAADOdAAvY29tLmlibS53ZWJzcGhlcmUubWFuYWdlbWVudC5BZG1pbkNsaWVudEZhY3Rvcnl0ABdBZG1pbkNsaWVudEZhY3RvcnkuamF2YXQAEWNyZWF0ZUFkbWluQ2xpZW50c3EAfgAOAAAAe3QAKmNvbS5pYm0ud3Muc2NyaXB0aW5nLkNvbW1vblNjcmlwdGluZ09iamVjdHQAGkNvbW1vblNjcmlwdGluZ09iamVjdC5qYXZhdAAVY29ubmVjdFRvQWRtaW5TZXJ2aWNlc3EAfgAOAAAAaHQAKmNvbS5pYm0ud3Muc2NyaXB0aW5nLkNvbW1vblNjcmlwdGluZ09iamVjdHQAGkNvbW1vblNjcmlwdGluZ09iamVjdC5qYXZhdAAGPGluaXQ+c3EAfgAOAAAAqnQAJ2NvbS5pYm0ud3Muc2NyaXB0aW5nLkFkbWluQ29udHJvbENsaWVudHQAF0FkbWluQ29udHJvbENsaWVudC5qYXZhdAAGPGluaXQ+c3EAfgAOAAAFCXQAImNvbS5pYm0ud3Muc2NyaXB0aW5nLkFic3RyYWN0U2hlbGx0ABJBYnN0cmFjdFNoZWxsLmphdmF0ABNjcmVhdGVDb250cm9sQ2xpZW50c3EAfgAOAAAIxXQAImNvbS5pYm0ud3Muc2NyaXB0aW5nLkFic3RyYWN0U2hlbGx0ABJBYnN0cmFjdFNoZWxsLmphdmF0AANydW5zcQB+AA4AAASUdAAeY29tLmlibS53cy5zY3JpcHRpbmcuV2FzeFNoZWxsdAAOV2FzeFNoZWxsLmphdmF0AARtYWlucHBwcHBwcHBweA==
+[9/7/18 17:56:25:118 UTC] 00000001 JMXConnectorC >  gbuildStackTrace() Entry
+[9/7/18 17:56:25:119 UTC] 00000001 JMXConnectorC <  buildStackTrace() Exit
+                                 ----------
+---- 2018-09-07T17:56:25.118
+Thread id: 1
+JMXConnectorContext 0 cell:  node:  server:  host: d599fd33b327
+com.ibm.ws.management.connector.JMXConnectorContextElement.<init>(JMXConnectorContextElement.java:75)
+com.ibm.ws.management.connector.JMXConnectorContext.push(JMXConnectorContext.java:60)
+com.ibm.ws.management.connector.soap.SOAPConnectorClient.getJMXConnectorContextHeader(SOAPConnectorClient.java:1611)
+com.ibm.ws.management.connector.soap.SOAPConnectorClient.reconnect(SOAPConnectorClient.java:376)
+com.ibm.ws.management.connector.soap.SOAPConnectorClient.<init>(SOAPConnectorClient.java:236)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
+java.lang.reflect.Constructor.newInstance(Constructor.java:437)
+com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:495)
+com.ibm.websphere.management.AdminClientFactory.access$000(AdminClientFactory.java:127)
+com.ibm.websphere.management.AdminClientFactory$1.run(AdminClientFactory.java:210)
+com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:63)
+com.ibm.websphere.management.AdminClientFactory.createAdminClient(AdminClientFactory.java:206)
+com.ibm.ws.scripting.CommonScriptingObject.connectToAdminService(CommonScriptingObject.java:123)
+com.ibm.ws.scripting.CommonScriptingObject.<init>(CommonScriptingObject.java:104)
+com.ibm.ws.scripting.AdminControlClient.<init>(AdminControlClient.java:170)
+com.ibm.ws.scripting.AbstractShell.createControlClient(AbstractShell.java:1289)
+com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2245)
+com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+
+[9/7/18 17:56:25:124 UTC] 00000001 SOAPConnector 3   setting JMXConnectorContext to: ----------
+---- 2018-09-07T17:56:25.118
+Thread id: 1
+JMXConnectorContext 0 cell:  node:  server:  host: d599fd33b327
+com.ibm.ws.management.connector.JMXConnectorContextElement.<init>(JMXConnectorContextElement.java:75)
+com.ibm.ws.management.connector.JMXConnectorContext.push(JMXConnectorContext.java:60)
+com.ibm.ws.management.connector.soap.SOAPConnectorClient.getJMXConnectorContextHeader(SOAPConnectorClient.java:1611)
+com.ibm.ws.management.connector.soap.SOAPConnectorClient.reconnect(SOAPConnectorClient.java:376)
+com.ibm.ws.management.connector.soap.SOAPConnectorClient.<init>(SOAPConnectorClient.java:236)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
+java.lang.reflect.Constructor.newInstance(Constructor.java:437)
+com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:495)
+com.ibm.websphere.management.AdminClientFactory.access$000(AdminClientFactory.java:127)
+com.ibm.websphere.management.AdminClientFactory$1.run(AdminClientFactory.java:210)
+com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:63)
+com.ibm.websphere.management.AdminClientFactory.createAdminClient(AdminClientFactory.java:206)
+com.ibm.ws.scripting.CommonScriptingObject.connectToAdminService(CommonScriptingObject.java:123)
+com.ibm.ws.scripting.CommonScriptingObject.<init>(CommonScriptingObject.java:104)
+com.ibm.ws.scripting.AdminControlClient.<init>(AdminControlClient.java:170)
+com.ibm.ws.scripting.AbstractShell.createControlClient(AbstractShell.java:1289)
+com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2245)
+com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+
+[9/7/18 17:56:25:125 UTC] 00000001 JMXConnectorC >  pop Entry
+[9/7/18 17:56:25:125 UTC] 00000001 JMXConnectorC <  pop Exit
+[9/7/18 17:56:25:125 UTC] 00000001 SOAPConnector <  getJMXConnectorContextHeader Exit
+[9/7/18 17:56:25:125 UTC] 00000001 SOAPConnector 3   soap url: https://was:8880/
+[9/7/18 17:56:25:126 UTC] 00000001 URLHandlerFac >  createURLStreamHandler for protocol=https Entry
+[9/7/18 17:56:25:126 UTC] 00000001 URLHandlerFac 3   streamHandlerTable={https=com.ibm.ws.runtime.util.utilHandlerClass@35f13bae}
+[9/7/18 17:56:25:126 UTC] 00000001 URLHandlerFac 3   handler class com.ibm.ws.runtime.util.utilHandlerClass@35f13bae retrieved from streamHandlerTable
+[9/7/18 17:56:25:126 UTC] 00000001 URLHandlerFac 3   Found a handlerClass object for https
+[9/7/18 17:56:25:126 UTC] 00000001 URLHandlerFac 3   attempting to get a class loader for null
+[9/7/18 17:56:25:126 UTC] 00000001 StreamHandler >  getResourceClassLoader null : null Entry
+[9/7/18 17:56:25:127 UTC] 00000001 URLHandlerFac 3   Attempting to load com.ibm.net.ssl.www2.protocol.https.Handler
+[9/7/18 17:56:25:128 UTC] 00000001 URLHandlerFac 3   Found streamHandlerClass com.ibm.net.ssl.www2.protocol.https.Handler for protocol https
+[9/7/18 17:56:25:128 UTC] 00000001 URLHandlerFac <  createURLStreamHandler returning handler:com.ibm.net.ssl.www2.protocol.https.Handler@10d3c4ca Exit
+[9/7/18 17:56:26:357 UTC] 00000001 SOAPConnector 3   reconnect running into exception when using: secEnabled= true, protocol=https, please check if the remote process is running, if yes, please check if client and server both have security enabled or not. This exception could occur when client and server don't have the same security requirements, and as long as a later SOAP connection attempt using alternative SOAP properties is created successfully, this current exception is benign and can be ignored. 
+[9/7/18 17:56:26:357 UTC] 00000001 SOAPConnector 3   reconnect running into exception which is NOT a javax.net.ssl.SSLHandshakeException
+[9/7/18 17:56:26:358 UTC] 00000001 SOAPConnector <  reconnect Exit
+                                 [SOAPException: faultCode=SOAP-ENV:Client; msg=Error opening socket: java.io.IOException: Exception during sslSocket.startHandshake: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=localhost, OU=Root Certificate, OU=DefaultCell01, OU=DefaultNode01, O=IBM, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error; targetException=java.lang.IllegalArgumentException: Error opening socket: java.io.IOException: Exception during sslSocket.startHandshake: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=localhost, OU=Root Certificate, OU=DefaultCell01, OU=DefaultNode01, O=IBM, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error]
+	at org.apache.soap.transport.http.SOAPHTTPConnection.send(SOAPHTTPConnection.java:475)
+	at org.apache.soap.rpc.Call.WASinvoke(Call.java:510)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient$4.run(SOAPConnectorClient.java:395)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.reconnect(SOAPConnectorClient.java:380)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.<init>(SOAPConnectorClient.java:236)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:437)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:495)
+	at com.ibm.websphere.management.AdminClientFactory.access$000(AdminClientFactory.java:127)
+	at com.ibm.websphere.management.AdminClientFactory$1.run(AdminClientFactory.java:210)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:63)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClient(AdminClientFactory.java:206)
+	at com.ibm.ws.scripting.CommonScriptingObject.connectToAdminService(CommonScriptingObject.java:123)
+	at com.ibm.ws.scripting.CommonScriptingObject.<init>(CommonScriptingObject.java:104)
+	at com.ibm.ws.scripting.AdminControlClient.<init>(AdminControlClient.java:170)
+	at com.ibm.ws.scripting.AbstractShell.createControlClient(AbstractShell.java:1289)
+	at com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2245)
+	at com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+
+[9/7/18 17:56:26:363 UTC] 00000001 AdminClientFa <  createAdminClientPrivileged - failed Exit
+                                 java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:437)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:495)
+	at com.ibm.websphere.management.AdminClientFactory.access$000(AdminClientFactory.java:127)
+	at com.ibm.websphere.management.AdminClientFactory$1.run(AdminClientFactory.java:210)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:63)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClient(AdminClientFactory.java:206)
+	at com.ibm.ws.scripting.CommonScriptingObject.connectToAdminService(CommonScriptingObject.java:123)
+	at com.ibm.ws.scripting.CommonScriptingObject.<init>(CommonScriptingObject.java:104)
+	at com.ibm.ws.scripting.AdminControlClient.<init>(AdminControlClient.java:170)
+	at com.ibm.ws.scripting.AbstractShell.createControlClient(AbstractShell.java:1289)
+	at com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2245)
+	at com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+Caused by: com.ibm.websphere.management.exception.ConnectorNotAvailableException: [SOAPException: faultCode=SOAP-ENV:Client; msg=Error opening socket: java.io.IOException: Exception during sslSocket.startHandshake: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=localhost, OU=Root Certificate, OU=DefaultCell01, OU=DefaultNode01, O=IBM, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error; targetException=java.lang.IllegalArgumentException: Error opening socket: java.io.IOException: Exception during sslSocket.startHandshake: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=localhost, OU=Root Certificate, OU=DefaultCell01, OU=DefaultNode01, O=IBM, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error]
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.reconnect(SOAPConnectorClient.java:437)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.<init>(SOAPConnectorClient.java:236)
+	... 15 more
+Caused by: [SOAPException: faultCode=SOAP-ENV:Client; msg=Error opening socket: java.io.IOException: Exception during sslSocket.startHandshake: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=localhost, OU=Root Certificate, OU=DefaultCell01, OU=DefaultNode01, O=IBM, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error; targetException=java.lang.IllegalArgumentException: Error opening socket: java.io.IOException: Exception during sslSocket.startHandshake: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=localhost, OU=Root Certificate, OU=DefaultCell01, OU=DefaultNode01, O=IBM, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error]
+	at org.apache.soap.transport.http.SOAPHTTPConnection.send(SOAPHTTPConnection.java:475)
+	at org.apache.soap.rpc.Call.WASinvoke(Call.java:510)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient$4.run(SOAPConnectorClient.java:395)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.reconnect(SOAPConnectorClient.java:380)
+	... 16 more
+
+[9/7/18 17:56:26:368 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:369 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:369 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:373 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:374 UTC] 00000001 AbstractShell A   WASX7093I: Issuing message: "WASX7023E: Error creating "SOAP" connection to host "was"; exception information: com.ibm.websphere.management.exception.ConnectorNotAvailableException: [SOAPException: faultCode=SOAP-ENV:Client; msg=Error parsing HTTP status line &quot; &quot;: java.util.NoSuchElementException; targetException=java.lang.IllegalArgumentException: Error parsing HTTP status line " ": java.util.NoSuchElementException]"
+[9/7/18 17:56:26:377 UTC] 00000001 AbstractShell >  logException Entry
+[9/7/18 17:56:26:378 UTC] 00000001 ExceptionSupp >  getMessage Entry
+[9/7/18 17:56:26:378 UTC] 00000001 ExceptionSupp 3   class is com.ibm.websphere.management.exception.ConnectorException
+[9/7/18 17:56:26:378 UTC] 00000001 ExceptionSupp 3   tostring is com.ibm.websphere.management.exception.ConnectorException: ADMC0016E: The system cannot create a SOAP connector to connect to host was at port 8880.
+[9/7/18 17:56:26:386 UTC] 00000001 ExceptionSupp >  getMessage Entry
+[9/7/18 17:56:26:386 UTC] 00000001 ExceptionSupp 3   class is java.lang.reflect.InvocationTargetException
+[9/7/18 17:56:26:386 UTC] 00000001 ExceptionSupp 3   tostring is java.lang.reflect.InvocationTargetException
+[9/7/18 17:56:26:388 UTC] 00000001 ExceptionSupp <  getMessage java.lang.reflect.InvocationTargetException: java.lang.reflect.InvocationTargetException
+ Exit
+[9/7/18 17:56:26:388 UTC] 00000001 ExceptionSupp <  getMessage com.ibm.websphere.management.exception.ConnectorException
+java.lang.reflect.InvocationTargetException: java.lang.reflect.InvocationTargetException
+ Exit
+[9/7/18 17:56:26:389 UTC] 00000001 ExceptionSupp >  getDiagnosticInfo Entry
+[9/7/18 17:56:26:389 UTC] 00000001 ExceptionSupp >  getDiagnosticInfo - null Entry
+[9/7/18 17:56:26:392 UTC] 00000001 AbstractShell E   WASX7120E: Diagnostic information from exception with text "com.ibm.websphere.management.exception.ConnectorException
+java.lang.reflect.InvocationTargetException: java.lang.reflect.InvocationTargetException
+" follows:
+
+ com.ibm.websphere.management.exception.ConnectorException: ADMC0016E: The system cannot create a SOAP connector to connect to host was at port 8880.
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:635)
+	at com.ibm.websphere.management.AdminClientFactory.access$000(AdminClientFactory.java:127)
+	at com.ibm.websphere.management.AdminClientFactory$1.run(AdminClientFactory.java:210)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:63)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClient(AdminClientFactory.java:206)
+	at com.ibm.ws.scripting.CommonScriptingObject.connectToAdminService(CommonScriptingObject.java:123)
+	at com.ibm.ws.scripting.CommonScriptingObject.<init>(CommonScriptingObject.java:104)
+	at com.ibm.ws.scripting.AdminControlClient.<init>(AdminControlClient.java:170)
+	at com.ibm.ws.scripting.AbstractShell.createControlClient(AbstractShell.java:1289)
+	at com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2245)
+	at com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:437)
+	at com.ibm.websphere.management.AdminClientFactory.createAdminClientPrivileged(AdminClientFactory.java:457)
+	... 10 more
+Caused by: com.ibm.websphere.management.exception.ConnectorNotAvailableException: [SOAPException: faultCode=SOAP-ENV:Client; msg=Error parsing HTTP status line &quot; &quot;: java.util.NoSuchElementException; targetException=java.lang.IllegalArgumentException: Error parsing HTTP status line " ": java.util.NoSuchElementException]
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.reconnect(SOAPConnectorClient.java:437)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.<init>(SOAPConnectorClient.java:236)
+	... 15 more
+Caused by: [SOAPException: faultCode=SOAP-ENV:Client; msg=Error parsing HTTP status line &quot; &quot;: java.util.NoSuchElementException; targetException=java.lang.IllegalArgumentException: Error parsing HTTP status line " ": java.util.NoSuchElementException]
+	at org.apache.soap.transport.http.SOAPHTTPConnection.send(SOAPHTTPConnection.java:475)
+	at org.apache.soap.rpc.Call.WASinvoke(Call.java:510)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient$4.run(SOAPConnectorClient.java:387)
+	at com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+	at com.ibm.ws.management.connector.soap.SOAPConnectorClient.reconnect(SOAPConnectorClient.java:380)
+	... 16 more
+
+[9/7/18 17:56:26:394 UTC] 00000001 AbstractShell <  logException Exit
+[9/7/18 17:56:26:394 UTC] 00000001 CommonScripti <  connectToAdminService -- null Exit
+[9/7/18 17:56:26:394 UTC] 00000001 CommonScripti <  CommonScriptingObject ctor Exit
+[9/7/18 17:56:26:394 UTC] 00000001 AdminControlC >  AdminControlClient Entry
+[9/7/18 17:56:26:394 UTC] 00000001 AdminControlC W   WASX7072E: The control service is not available.
+[9/7/18 17:56:26:400 UTC] 00000001 AbstractShell >  getLangUtils Entry
+[9/7/18 17:56:26:400 UTC] 00000001 AbstractShell <  getLangUtils Exit
+[9/7/18 17:56:26:401 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.lang.String
+[9/7/18 17:56:26:401 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:401 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.lang.Boolean
+[9/7/18 17:56:26:402 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:402 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.lang.Character
+[9/7/18 17:56:26:402 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:402 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.lang.Integer
+[9/7/18 17:56:26:405 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:405 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.lang.Long
+[9/7/18 17:56:26:405 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:406 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.lang.Byte
+[9/7/18 17:56:26:406 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:406 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.lang.Short
+[9/7/18 17:56:26:406 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:406 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.lang.Float
+[9/7/18 17:56:26:407 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:407 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.lang.Double
+[9/7/18 17:56:26:407 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:407 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.lang.Object
+[9/7/18 17:56:26:414 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:414 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.net.URL
+[9/7/18 17:56:26:415 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:415 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class javax.management.ObjectName
+[9/7/18 17:56:26:415 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:415 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.util.Properties
+[9/7/18 17:56:26:416 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:416 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class javax.management.Attribute
+[9/7/18 17:56:26:416 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:417 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class javax.management.AttributeList
+[9/7/18 17:56:26:417 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:417 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.util.ArrayList
+[9/7/18 17:56:26:417 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:418 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 interface java.util.List
+[9/7/18 17:56:26:418 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:418 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class java.util.Hashtable
+[9/7/18 17:56:26:418 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:418 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 int
+[9/7/18 17:56:26:418 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:419 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 long
+[9/7/18 17:56:26:419 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:425 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 boolean
+[9/7/18 17:56:26:425 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:425 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 char
+[9/7/18 17:56:26:426 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:426 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 byte
+[9/7/18 17:56:26:426 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:426 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 short
+[9/7/18 17:56:26:427 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:427 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 float
+[9/7/18 17:56:26:427 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:427 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 double
+[9/7/18 17:56:26:427 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:427 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class [Ljava.lang.String;
+[9/7/18 17:56:26:428 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:428 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class [Ljava.lang.Object;
+[9/7/18 17:56:26:428 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:428 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class [Ljava.lang.Integer;
+[9/7/18 17:56:26:428 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:429 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class com.ibm.websphere.management.cmdframework.UploadFile
+[9/7/18 17:56:26:429 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:435 UTC] 00000001 HandlerRegist >  registryHandler  Entry
+                                 com.ibm.ws.scripting.DefaultStringHandler@99239d25
+                                 class com.ibm.websphere.management.cmdframework.DownloadFile
+[9/7/18 17:56:26:436 UTC] 00000001 HandlerRegist <  registryHandler false Exit
+[9/7/18 17:56:26:438 UTC] 00000001 ExtensionHelp >  processRegisterHandlersInExtensions Entry
+[9/7/18 17:56:26:438 UTC] 00000001 ExtensionHelp >  getScriptingExtension false Entry
+[9/7/18 17:56:26:438 UTC] 00000001 ExtensionHelp 3   Unable to get extension point - com.ibm.wsspi.extension.scripting-extension
+[9/7/18 17:56:26:445 UTC] 00000001 ExtensionHelp 3   Processing providers ...
+[9/7/18 17:56:26:445 UTC] 00000001 ExtensionHelp <  getScriptingExtension Exit
+[9/7/18 17:56:26:445 UTC] 00000001 ExtensionHelp <  processRegisterHandlersInExtensions Exit
+[9/7/18 17:56:26:445 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:445 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:446 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:446 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:447 UTC] 00000001 AdminControlC <  AdminControlClient Exit
+[9/7/18 17:56:26:448 UTC] 00000001 AbstractShell <  createControlClient Exit
+[9/7/18 17:56:26:449 UTC] 00000001 WasxShell     >  declareBeans Entry
+[9/7/18 17:56:26:454 UTC] 00000001 CommonScripti >  CommonScriptingObject ctor Entry
+[9/7/18 17:56:26:454 UTC] 00000001 AbstractShell >  getLangUtils Entry
+[9/7/18 17:56:26:455 UTC] 00000001 AbstractShell <  getLangUtils Exit
+[9/7/18 17:56:26:455 UTC] 00000001 CommonScripti <  CommonScriptingObject ctor Exit
+[9/7/18 17:56:26:455 UTC] 00000001 HelpSupport   >  HelpSupport Entry
+[9/7/18 17:56:26:456 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:456 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:457 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:457 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:458 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:458 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:458 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:460 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:460 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:461 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:461 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:461 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:461 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:461 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:461 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:461 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:462 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:462 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:462 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:462 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:462 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:462 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:462 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:463 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:463 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:463 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:463 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:463 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:463 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:464 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:464 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:464 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:464 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:464 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:464 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:464 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:465 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:465 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:465 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:465 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:465 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:465 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:466 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:466 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:466 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:466 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:466 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:466 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:477 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:477 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:477 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:478 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:478 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:478 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:478 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:478 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:479 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:479 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:479 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:479 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:479 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:479 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:479 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:480 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:480 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:26:480 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:26:480 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:26:480 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:26:480 UTC] 00000001 HelpSupport   >  HelpSupport Entry
+[9/7/18 17:56:26:493 UTC] 00000001 CommonScripti >  CommonScriptingObject ctor Entry
+[9/7/18 17:56:26:493 UTC] 00000001 AbstractShell >  getLangUtils Entry
+[9/7/18 17:56:26:493 UTC] 00000001 AbstractShell <  getLangUtils Exit
+[9/7/18 17:56:26:493 UTC] 00000001 CommonScripti <  CommonScriptingObject ctor Exit
+[9/7/18 17:56:26:493 UTC] 00000001 AdminConfigCl >  AdminConfigClient Entry
+[9/7/18 17:56:26:494 UTC] 00000001 AdminConfigCl >  init Entry
+[9/7/18 17:56:26:494 UTC] 00000001 AdminConfigCl W   WASX7198W: The configuration service is not running. Configuration commands will not run.
+[9/7/18 17:56:26:495 UTC] 00000001 AdminConfigCl <  init Exit
+[9/7/18 17:56:26:503 UTC] 00000001 MetaInfoCache 3   For thread: 1 creating a new instance of MetaInfoCache
+[9/7/18 17:56:26:504 UTC] 00000001 MetaInfoCache >  MetaInfoCache Entry
+[9/7/18 17:56:26:504 UTC] 00000001 MetaInfoCache >  init Entry
+[9/7/18 17:56:26:504 UTC] 00000001 MetaInfoCache 3   instance of configServiceProxy is: null
+[9/7/18 17:56:26:504 UTC] 00000001 MetaInfoCache <  init Exit
+[9/7/18 17:56:26:504 UTC] 00000001 MetaInfoCache <  MetaInfoCache Exit
+[9/7/18 17:56:26:505 UTC] 00000001 MetaInfoCache 3   For thread: 1 returning an instance of MetaInfoCache: -1293278101
+[9/7/18 17:56:26:506 UTC] 00000001 ConfigHelper  >  ConfigHelper Entry
+[9/7/18 17:56:26:506 UTC] 00000001 ConfigHelper  <  ConfigHelper Exit
+[9/7/18 17:56:26:520 UTC] 00000001 AdminConfigCl >  getCurrentSession Entry
+[9/7/18 17:56:26:520 UTC] 00000001 AdminConfigCl >  createSession Entry
+[9/7/18 17:56:26:520 UTC] 00000001 AdminConfigCl >  generateRandomSuffix Entry
+[9/7/18 17:56:26:520 UTC] 00000001 AdminConfigCl 3   generateRandomSuffix
+                                 sessionIdUniqueness: 
+[9/7/18 17:56:26:520 UTC] 00000001 AdminConfigCl <  generateRandomSuffix Exit
+                                 165b52d8f18
+[9/7/18 17:56:26:521 UTC] 00000001 AdminConfigCl <  createSession Exit
+                                 Script165b52d8f18
+[9/7/18 17:56:26:521 UTC] 00000001 AdminConfigCl <  getCurrentSession Exit
+[9/7/18 17:56:26:521 UTC] 00000001 ConfigNameCac >  ConfigNameCache Entry
+[9/7/18 17:56:26:522 UTC] 00000001 ConfigNameCac >  init Entry
+[9/7/18 17:56:26:522 UTC] 00000001 ConfigNameCac <  init Exit
+[9/7/18 17:56:26:522 UTC] 00000001 ConfigNameCac <  ConfigNameCache Exit
+[9/7/18 17:56:26:546 UTC] 00000001 PropertyTSHel >  reset Entry
+[9/7/18 17:56:26:546 UTC] 00000001 PropertyTSHel <  reset Exit
+[9/7/18 17:56:26:546 UTC] 00000001 PropertyTSHel >  reset Entry
+[9/7/18 17:56:26:547 UTC] 00000001 PropertyTSHel <  reset Exit
+[9/7/18 17:56:26:547 UTC] 00000001 SOAPConnector >  reset Entry
+[9/7/18 17:56:26:548 UTC] 00000001 SOAPConnector <  reset Exit
+[9/7/18 17:56:26:548 UTC] 00000001 WebContainerT >  reset Entry
+[9/7/18 17:56:26:549 UTC] 00000001 WebContainerT <  reset Exit
+[9/7/18 17:56:26:555 UTC] 00000001 HTTPTransport >  reset Entry
+[9/7/18 17:56:26:555 UTC] 00000001 HTTPTransport <  reset Exit
+[9/7/18 17:56:26:556 UTC] 00000001 CommonSecureI >  reset Entry
+[9/7/18 17:56:26:556 UTC] 00000001 CommonSecureI <  reset Exit
+[9/7/18 17:56:26:556 UTC] 00000001 CommonSecureI >  reset Entry
+[9/7/18 17:56:26:556 UTC] 00000001 CommonSecureI <  reset Exit
+[9/7/18 17:56:26:557 UTC] 00000001 CommonSecureI >  reset Entry
+[9/7/18 17:56:26:557 UTC] 00000001 CommonSecureI <  reset Exit
+[9/7/18 17:56:26:560 UTC] 00000001 TransportLaye >  reset Entry
+[9/7/18 17:56:26:561 UTC] 00000001 TransportLaye <  reset Exit
+[9/7/18 17:56:26:561 UTC] 00000001 IIOPTransport >  reset Entry
+[9/7/18 17:56:26:562 UTC] 00000001 IIOPTransport <  reset Exit
+[9/7/18 17:56:26:562 UTC] 00000001 LDAPUserRegis >  reset Entry
+[9/7/18 17:56:26:563 UTC] 00000001 LDAPUserRegis <  reset Exit
+[9/7/18 17:56:26:563 UTC] 00000001 AdminConfigCl A   WASX7208I: Validation settings in effect now: Level=HIGHEST, Cross-validation=true, Output file=/MyThinClient/logs/wsadmin.valout
+[9/7/18 17:56:26:566 UTC] 00000001 AdminConfigCl <  AdminConfigClient Exit
+[9/7/18 17:56:26:596 UTC] 00000001 CommonScripti >  CommonScriptingObject ctor Entry
+[9/7/18 17:56:26:597 UTC] 00000001 AbstractShell >  getLangUtils Entry
+[9/7/18 17:56:26:597 UTC] 00000001 AbstractShell <  getLangUtils Exit
+[9/7/18 17:56:26:597 UTC] 00000001 CommonScripti <  CommonScriptingObject ctor Exit
+[9/7/18 17:56:26:603 UTC] 00000001 AdminAppClien >  AdminAppClient Entry
+[9/7/18 17:56:26:604 UTC] 00000001 AdminAppClien W   WASX7072E: The control service is not available.
+[9/7/18 17:56:26:608 UTC] 00000001 AdminAppClien 3   timeout 86400000
+[9/7/18 17:56:26:608 UTC] 00000001 AdminAppClien >  getAllAppDeplOptions Entry
+[9/7/18 17:56:26:612 UTC] 00000001 AppDeployment 3   SOURCE CODE INFO: SERV1/ws/code/admin.appmgmt/src/com/ibm/websphere/management/application/client/AppDeploymentProfile.java, WAS.admin.appmgmt.client, WAS855.SERV1, cf141828.04, ver. 1.26.1.15
+[9/7/18 17:56:26:617 UTC] 00000001 AppDeployment >  getProfile Entry
+                                 operation=1118481
+[9/7/18 17:56:26:682 UTC] 00000001 WsLoggerConfi 2 com.ibm.ws.logging.WsLoggerConfigurator getCurrentLoggingConfiguration Getting for ccl of: sun.misc.Launcher$AppClassLoader@f6f3ed8 w/hashSz of: 1
+[9/7/18 17:56:26:682 UTC] 00000001 jem           2 org.eclipse.jem.java.internal.impl.JavaRefFactoryImpl JavaRefFactoryImpl THROW
+                                 java.lang.Throwable
+	at org.eclipse.jem.java.internal.impl.JavaRefFactoryImpl.<init>(JavaRefFactoryImpl.java:114)
+	at org.eclipse.jem.java.JavaRefFactory.<clinit>(JavaRefFactory.java:33)
+	at org.eclipse.jem.java.internal.impl.JavaRefPackageImpl.<init>(JavaRefPackageImpl.java:177)
+	at org.eclipse.jem.java.internal.impl.JavaRefPackageImpl.<init>(JavaRefPackageImpl.java:188)
+	at org.eclipse.jem.java.impl.JavaRefPackageImpl.<init>(JavaRefPackageImpl.java:30)
+	at org.eclipse.jem.java.internal.impl.JavaRefPackageImpl.init(JavaRefPackageImpl.java:210)
+	at org.eclipse.jem.java.JavaRefPackage.<clinit>(JavaRefPackage.java:1564)
+	at org.eclipse.jst.j2ee.application.internal.impl.ApplicationPackageImpl.init(ApplicationPackageImpl.java:119)
+	at org.eclipse.jst.j2ee.application.ApplicationPackage.<clinit>(ApplicationPackage.java:405)
+	at com.ibm.websphere.models.config.appdeployment.impl.AppdeploymentPackageImpl.init(AppdeploymentPackageImpl.java:259)
+	at com.ibm.websphere.models.config.appdeployment.AppdeploymentPackage.<clinit>(AppdeploymentPackage.java:65)
+	at com.ibm.websphere.management.application.client.AppDeploymentProfile._getProfile(AppDeploymentProfile.java:206)
+	at com.ibm.websphere.management.application.client.AppDeploymentProfile.getProfile(AppDeploymentProfile.java:183)
+	at com.ibm.ws.scripting.AdminAppClient.getAllAppDeplOptions(AdminAppClient.java:7353)
+	at com.ibm.ws.scripting.AdminAppClient.<init>(AdminAppClient.java:458)
+	at com.ibm.ws.scripting.WasxShell.declareBeans(WasxShell.java:582)
+	at com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2246)
+	at com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+
+[9/7/18 17:56:27:694 UTC] 00000001 EditionHelper 3   SOURCE CODE INFO: SERV1/ws/code/admin.thinclient/src/com/ibm/websphere/management/application/EditionHelper.java, WAS.admin.appmgmt, WAS855.SERV1, cf141828.04, ver. 1.16.1.5
+[9/7/18 17:56:27:694 UTC] 00000001 EditionHelper >  isEditionSupportEnabled Entry
+[9/7/18 17:56:27:695 UTC] 00000001 EditionHelper >  isXDAugmented Entry
+[9/7/18 17:56:27:695 UTC] 00000001 EditionHelper >  isXDInstalled Entry
+[9/7/18 17:56:27:695 UTC] 00000001 EditionHelper 3   XD class com.ibm.ws.xd.util.XD not found.
+[9/7/18 17:56:27:695 UTC] 00000001 EditionHelper <  isXDInstalled Exit
+                                 false
+[9/7/18 17:56:27:696 UTC] 00000001 EditionHelper <  isXDAugmented Exit
+                                 false
+[9/7/18 17:56:27:696 UTC] 00000001 EditionHelper <  isEditionSupportEnabled Exit
+                                 false
+[9/7/18 17:56:27:720 UTC] 00000001 AppUtils      3   SOURCE CODE INFO: SERV1/ws/code/admin.appmgmt/src/com/ibm/ws/management/application/AppUtils.java, WAS.admin.appmgmt, WAS855.SERV1, cf141828.04, ver. 1.58.14.3
+[9/7/18 17:56:27:721 UTC] 00000001 AppUtils      >  getGlobalEmbededConfig  Entry
+[9/7/18 17:56:27:721 UTC] 00000001 AppUtils      3   globally processEmbeddedConfigGlobal is set as--null
+[9/7/18 17:56:27:721 UTC] 00000001 AppUtils      <  getGlobalEmbededConfig - true Exit
+[9/7/18 17:56:27:794 UTC] 00000001 AppDeployment <  getProfile Exit
+                                 [com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@ec50477d[name=preCompileJSPs, type=class java.lang.Boolean, defaultVal=false, applicability=1118209, mutable=1118209, attr=null, bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@1f5569c0[name=installed.ear.destination, type=class java.lang.String, defaultVal=, applicability=4113, mutable=4113, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@a38359d2 (name: binariesURL) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: null, unsettable: false, derived: false) (iD: false), bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@6d8f6fde[name=distributeApp, type=class java.lang.Boolean, defaultVal=true, applicability=4113, mutable=4113, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@4e91bbca (name: enableDistribution) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: true, unsettable: true, derived: false) (iD: false), bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@15deb3df[name=useMetaDataFromBinary, type=class java.lang.Boolean, defaultVal=false, applicability=4113, mutable=4113, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@fdc70bb (name: useMetadataFromBinaries) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: false, unsettable: true, derived: false) (iD: false), bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@91f68ae8[name=deployejb, type=class java.lang.Boolean, defaultVal=false, applicability=1118209, mutable=1118209, attr=null, bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@22d04d4[name=appname, type=class java.lang.String, defaultVal=, applicability=1, mutable=1, attr=null, bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@8b9716f8[name=createMBeansForResources, type=class java.lang.Boolean, defaultVal=true, applicability=4113, mutable=4113, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@29c64b1b (name: createMBeansForResources) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: false, unsettable: true, derived: false) (iD: false), bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@f1f8024c[name=reloadEnabled, type=class java.lang.Boolean, defaultVal=false, applicability=4113, mutable=4113, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@1fe02f61 (name: reloadEnabled) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: true, unsettable: true, derived: false) (iD: false), bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@7b6992e0[name=reloadInterval, type=class java.lang.String, defaultVal=, applicability=4113, mutable=4113, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@e1137673 (name: reloadInterval) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: 3, unsettable: true, derived: false) (iD: false), bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@d7369f5d[name=deployws, type=class java.lang.Boolean, defaultVal=false, applicability=1118209, mutable=1118209, attr=null, bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@6f3738d4[name=validateinstall, type=class java.lang.String, defaultVal=off, applicability=4113, mutable=4113, attr=null, bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@4ccd9445[name=processEmbeddedConfig, type=class java.lang.Boolean, defaultVal=true, applicability=4097, mutable=4097, attr=null, bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@ff8f4529[name=filepermission, type=class java.lang.String, defaultVal=.*\.dll=755#.*\.so=755#.*\.a=755#.*\.sl=755, applicability=4113, mutable=4113, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@8db92a60 (name: filePermission) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: null, unsettable: false, derived: false) (iD: false), bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@205ec0de[name=buildVersion, type=class java.lang.String, defaultVal=AppDeploymentOption.Unknown, applicability=4113, mutable=0, attr=null, bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@c0e07ca9[name=allowDispatchRemoteInclude, type=class java.lang.Boolean, defaultVal=false, applicability=4113, mutable=4113, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@2d9f73d (name: allowDispatchRemoteInclude) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: null, unsettable: true, derived: false) (iD: false), bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@d8e18e08[name=allowServiceRemoteInclude, type=class java.lang.Boolean, defaultVal=false, applicability=4113, mutable=4113, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@bab830c8 (name: allowServiceRemoteInclude) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: null, unsettable: true, derived: false) (iD: false), bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@cc37ff1d[name=blaname, type=class java.lang.String, defaultVal=, applicability=1, mutable=1, attr=null, bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@e8cd5330[name=asyncRequestDispatchType, type=class java.lang.String, defaultVal=DISABLED, applicability=4113, mutable=4113, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@29d66bb (name: asyncRequestDispatchType) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: DISABLED, unsettable: true, derived: false) (iD: false), bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@31638a9d[name=useAutoLink, type=class java.lang.Boolean, defaultVal=false, applicability=4113, mutable=4113, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@8b544e7f (name: autoLink) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: false, unsettable: false, derived: false) (iD: false), bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@b7246986[name=enableClientModule, type=class java.lang.Boolean, defaultVal=false, applicability=4097, mutable=4097, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@b27f68be (name: enableClientModule) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: false, unsettable: true, derived: false) (iD: false), bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@6db996b4[name=clientMode, type=class java.lang.String, defaultVal=isolated, applicability=4113, mutable=4113, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@d5a503b9 (name: clientMode) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: null, unsettable: true, derived: false) (iD: false), bHidden=false], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@92c5621f[name=validateSchema, type=class java.lang.Boolean, defaultVal=false, applicability=1118209, mutable=1118209, attr=null, bHidden=false]]
+[9/7/18 17:56:27:794 UTC] 00000001 AppDeployment >  getHiddenProfile Entry
+                                 operation=1118481
+[9/7/18 17:56:27:795 UTC] 00000001 AppDeployment <  getHiddenProfile Exit
+                                 [com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@6b3f3f52[name=classLoaderPolicy, type=class java.lang.String, defaultVal=0, applicability=4113, mutable=4113, attr=org.eclipse.emf.ecore.impl.EAttributeImpl@3ebf0337 (name: warClassLoaderPolicy) (ordered: true, unique: true, lowerBound: 0, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: null, unsettable: false, derived: false) (iD: false), bHidden=true], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@e725116[name=classLoadingMode, type=class java.lang.String, defaultVal=0, applicability=4113, mutable=4113, attr=null, bHidden=true], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@8d0a1fb8[name=zeroBinaryCopy, type=class java.lang.Boolean, defaultVal=false, applicability=1118209, mutable=1118209, attr=null, bHidden=true], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@8f8a3dbd[name=zeroEarCopy, type=class java.lang.Boolean, defaultVal=false, applicability=1118209, mutable=1118209, attr=null, bHidden=true], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@3bec0ff7[name=copy.sessionmgr.servername, type=class java.lang.String, defaultVal=, applicability=1118209, mutable=1118209, attr=null, bHidden=true], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@494a4586[name=was.loose.config, type=class java.lang.String, defaultVal=, applicability=1118209, mutable=1118209, attr=null, bHidden=true], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@2c5be5b7[name=enhancedEarDisableValidation, type=class java.lang.Boolean, defaultVal=false, applicability=4097, mutable=4097, attr=null, bHidden=true], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@a849876f[name=systemApp, type=class java.lang.Boolean, defaultVal=false, applicability=1, mutable=1, attr=null, bHidden=true], com.ibm.websphere.management.application.client.AppDeploymentProfile$DeplOption@dcc68097[name=skipPreparation, type=class java.lang.Boolean, defaultVal=false, applicability=1118209, mutable=1118209, attr=null, bHidden=true]]
+[9/7/18 17:56:27:799 UTC] 00000001 AdminAppClien <  getAllAppDeplOptions Exit
+[9/7/18 17:56:27:799 UTC] 00000001 AdminAppClien W   WASX7206W: The application management service is not running. Application management commands will not run.
+[9/7/18 17:56:27:800 UTC] 00000001 AdminAppClien <  AdminAppClient Exit
+[9/7/18 17:56:27:801 UTC] 00000001 CommonScripti >  CommonScriptingObject ctor Entry
+[9/7/18 17:56:27:801 UTC] 00000001 AbstractShell >  getLangUtils Entry
+[9/7/18 17:56:27:801 UTC] 00000001 AbstractShell <  getLangUtils Exit
+[9/7/18 17:56:27:801 UTC] 00000001 CommonScripti <  CommonScriptingObject ctor Exit
+[9/7/18 17:56:27:802 UTC] 00000001 AdminCmdClien W   WASX7198W: The configuration service is not running. Configuration commands will not run.
+[9/7/18 17:56:27:802 UTC] 00000001 AdminCmdClien >  generateAdminCmds Entry
+[9/7/18 17:56:27:802 UTC] 00000001 AbstractShell >  setLastException Entry
+[9/7/18 17:56:27:802 UTC] 00000001 AbstractShell <  setLastException Exit
+[9/7/18 17:56:27:802 UTC] 00000001 AdminCmdClien 3   Generating admin command objects...
+[9/7/18 17:56:27:802 UTC] 00000001 AdminCmdClien W   WASX8011W: AdminTask object is not available.
+[9/7/18 17:56:27:803 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:27:803 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:27:803 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:27:803 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:27:804 UTC] 00000001 AdminCmdClien 3   Finished generating dynamic AdminTask Object.
+[9/7/18 17:56:27:804 UTC] 00000001 AdminCmdClien <  generateAdminCmds Exit
+[9/7/18 17:56:27:804 UTC] 00000001 ExtensionHelp >  processRegisterBeansInExtensions Entry
+[9/7/18 17:56:27:805 UTC] 00000001 ExtensionHelp >  getScriptingExtension true Entry
+[9/7/18 17:56:27:805 UTC] 00000001 ExtensionHelp 3   Unable to get extension point - com.ibm.wsspi.extension.scripting-extension
+[9/7/18 17:56:27:806 UTC] 00000001 ExtensionHelp 3   Processing providers ...
+[9/7/18 17:56:27:806 UTC] 00000001 ExtensionHelp <  getScriptingExtension Exit
+[9/7/18 17:56:27:806 UTC] 00000001 ExtensionHelp <  processRegisterBeansInExtensions Exit
+[9/7/18 17:56:27:806 UTC] 00000001 WasxShell     <  declareBeans Exit
+[9/7/18 17:56:27:806 UTC] 00000001 AbstractShell >  checkVersionCompatibility  Entry
+[9/7/18 17:56:27:807 UTC] 00000001 UtilsClient   >  getProductVersion Entry
+[9/7/18 17:56:27:816 UTC] 00000001 UtilsClient   3   ignoring getProductVersion npe
+                                 java.lang.NullPointerException
+	at com.ibm.ws.management.util.UtilsClient.getProductVersion(UtilsClient.java:54)
+	at com.ibm.ws.scripting.AbstractShell.checkVersionCompatibility(AbstractShell.java:2605)
+	at com.ibm.ws.scripting.AbstractShell.run(AbstractShell.java:2258)
+	at com.ibm.ws.scripting.WasxShell.main(WasxShell.java:1172)
+
+[9/7/18 17:56:27:816 UTC] 00000001 UtilsClient   3   getProductVersion
+                                 Product version data not available.  Setting to hard-coded value.
+[9/7/18 17:56:27:816 UTC] 00000001 UtilsClient   <  getProductVersion Exit
+                                 8.0.0.0
+[9/7/18 17:56:27:816 UTC] 00000001 AbstractShell 3   clientVersion 8.0.0.0
+[9/7/18 17:56:27:816 UTC] 00000001 AdminControlC >  getAdminClient Entry
+[9/7/18 17:56:27:816 UTC] 00000001 AdminControlC <  getAdminClient Exit
+                                 <null>
+[9/7/18 17:56:27:816 UTC] 00000001 AbstractShell 3   Exception caught: java.lang.NullPointerException
+[9/7/18 17:56:27:817 UTC] 00000001 AbstractShell >  setupCmdLineArgs Entry
+[9/7/18 17:56:27:817 UTC] 00000001 AbstractShell 3   using language: jython
+[9/7/18 17:56:27:817 UTC] 00000001 AbstractShell >  checkScriptParamPassword Entry
+[9/7/18 17:56:27:817 UTC] 00000001 AbstractShell <  checkScriptParamPassword Exit
+[9/7/18 17:56:27:817 UTC] 00000001 JythonUtiliti >  createArgSettingCommands Entry
+[9/7/18 17:56:27:817 UTC] 00000001 JythonUtiliti <  createArgSettingCommands Exit
+[9/7/18 17:56:27:817 UTC] 00000001 JythonUtiliti >  createArgSettingCommands Entry
+[9/7/18 17:56:27:817 UTC] 00000001 JythonUtiliti <  createArgSettingCommands Exit
+[9/7/18 17:56:27:817 UTC] 00000001 AbstractShell 3   processing command: import sys
+[9/7/18 17:56:27:819 UTC] 00000001 AbstractShell 3   processing command: sys.argv = []
+[9/7/18 17:56:27:820 UTC] 00000001 AbstractShell <  setupCmdLineArgs Exit
+[9/7/18 17:56:27:820 UTC] 00000001 AbstractShell >  loadWsadminScriptLibraries Entry
+[9/7/18 17:56:27:820 UTC] 00000001 AbstractShell 3   char separator is /
+[9/7/18 17:56:27:821 UTC] 00000001 AbstractShell 3   Script library path: null
+[9/7/18 17:56:27:821 UTC] 00000001 AbstractShell 3   Script packages path: null
+[9/7/18 17:56:27:821 UTC] 00000001 AbstractShell >  getScriptLibrariesPath Entry
+[9/7/18 17:56:27:821 UTC] 00000001 AbstractShell <  getScriptLibrariesPath Exit
+[9/7/18 17:56:27:821 UTC] 00000001 AbstractShell 3   Script libraries path after search: 
+[9/7/18 17:56:27:821 UTC] 00000001 AbstractShell 3   Fixed script libraries path is 
+[9/7/18 17:56:27:821 UTC] 00000001 AbstractShell 3   Script libraries array is [Ljava.lang.String;@607c0e95
+[9/7/18 17:56:27:827 UTC] 00000001 AbstractShell <  loadWsadminScriptLibraries Exit
+[9/7/18 17:56:27:828 UTC] 00000001 AbstractShell >  importScriptLibraries Entry
+[9/7/18 17:56:27:828 UTC] 00000001 AbstractShell <  importScriptLibraries Exit
+[9/7/18 17:56:27:828 UTC] 00000001 WasxShell     >  executeProfiles Entry
+[9/7/18 17:56:27:828 UTC] 00000001 WasxShell     3   Set wsadmin objects as a builtin namespace
+[9/7/18 17:56:27:853 UTC] 00000001 WasxShell     3   fail to set wsadmin objects as a builtin namespace
+[9/7/18 17:56:27:853 UTC] 00000001 WasxShell     <  executeProfiles Exit
+[9/7/18 17:56:27:853 UTC] 00000001 AbstractShell >  executeCommands Entry
+[9/7/18 17:56:27:853 UTC] 00000001 WasxShell     >  welcome Entry
+[9/7/18 17:56:27:853 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:56:27:853 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:56:27:853 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:56:27:853 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:56:27:853 UTC] 00000001 WasxShell     <  welcome Exit
+[9/7/18 17:56:27:854 UTC] 00000001 AbstractShell >  interactive Entry
+[9/7/18 17:56:27:854 UTC] 00000001 AbstractShell >  getCommand Entry
+[9/7/18 17:57:23:736 UTC] 00000001 AbstractShell >  SystemExitCheck -- exit Entry
+[9/7/18 17:57:23:737 UTC] 00000001 AbstractShell <  getCommand -- exit Exit
+[9/7/18 17:57:23:738 UTC] 00000001 AdminConfigCl >  hasChanges Entry
+[9/7/18 17:57:23:738 UTC] 00000001 AbstractShell >  setAndThrowScriptingException Entry
+                                 CONFIG_NOT_AVAILABLE
+                                 Config service not available
+[9/7/18 17:57:23:738 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:57:23:739 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:57:23:739 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:57:23:740 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:57:23:740 UTC] 00000001 AbstractShell >  setLastException Entry
+[9/7/18 17:57:23:740 UTC] 00000001 AbstractShell <  setLastException Exit
+[9/7/18 17:57:23:740 UTC] 00000001 AbstractShell <  setAndThrowScriptingException Exit
+[9/7/18 17:57:23:741 UTC] 00000001 WasxShell     A   WASX7331I: Unexpected exception received when querying for changes in this session: 	com.ibm.ws.scripting.ScriptingException: WASX7070E: The configuration service is not available.
+[9/7/18 17:57:23:742 UTC] 00000001 WasxShell     >  leaving with 1 argument Entry
+[9/7/18 17:57:23:744 UTC] 00000001 AbstractShell >  setAndThrowScriptingException Entry
+                                 CONFIG_NOT_AVAILABLE
+                                 Config service not available
+[9/7/18 17:57:23:745 UTC] 00000001 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:57:23:745 UTC] 00000001 AbstractShell >  escapeSingleQuotes Entry
+[9/7/18 17:57:23:745 UTC] 00000001 AbstractShell <  escapeSingleQuotes Exit
+[9/7/18 17:57:23:746 UTC] 00000001 AbstractShell <  getFormattedMessage Exit
+[9/7/18 17:57:23:746 UTC] 00000001 AbstractShell >  setLastException Entry
+[9/7/18 17:57:23:746 UTC] 00000001 AbstractShell <  setLastException Exit
+[9/7/18 17:57:23:747 UTC] 00000001 AbstractShell <  setAndThrowScriptingException Exit
+[9/7/18 17:57:23:747 UTC] 00000001 WasxShell     <  leaving; config service not running Exit
+[9/7/18 17:57:23:747 UTC] 00000001 WasxShell     >  shutdownOSGI Entry
+[9/7/18 17:57:23:748 UTC] 00000001 WasxShell     <  leaving with 1 argument Exit
+[9/7/18 17:57:23:748 UTC] 00000001 AbstractShell <  interactive Exit
+[9/7/18 17:57:23:748 UTC] 00000001 AbstractShell <  run -> 0 Exit
+[9/7/18 17:57:23:751 UTC] 00000015 WasxShell     >  leaving - admin services bundle stopped:  Entry
+                                 false
+[9/7/18 17:57:23:751 UTC] 00000015 WasxShell     >  leaving with 1 argument Entry
+[9/7/18 17:57:23:752 UTC] 00000015 AbstractShell >  setAndThrowScriptingException Entry
+                                 CONFIG_NOT_AVAILABLE
+                                 Config service not available
+[9/7/18 17:57:23:752 UTC] 00000015 AbstractShell >  getFormattedMessage Entry
+[9/7/18 17:57:23:752 UTC] 00000015 AbstractShell >  escapeSingleQuotes Entry
