@@ -2,7 +2,7 @@ version: "3"
 
 services:
   postgresql_sonar:
-    image: postgres:10.3
+    image: postgres:11.4
     container_name: postgresql_sonar
     ports:
       - "5432:5432"
@@ -16,7 +16,7 @@ services:
       - postgresql_sonar:/var/lib/postgresql
       - postgresql_data_sonar:/var/lib/postgresql/data
   postgresql_artifactory:
-    image: postgres:10.3
+    image: postgres:11.4
     container_name: postgresql_artifactory
     ports:
       - "5431:5431"
@@ -31,7 +31,7 @@ services:
       - postgresql_artifactory:/var/lib/postgresql
       - postgresql_data_artifactory:/var/lib/postgresql/data
   sonarqube:
-    image: sonarqube:6.7.3
+    image: sonarqube:7.9.1-community
     container_name: sonarqube
     depends_on:
       - postgresql_sonar
@@ -49,7 +49,7 @@ services:
       - sonarqube_extensions:/opt/sonarqube/extensions
       - sonarqube_bundled-plugins:/opt/sonarqube/lib/bundled-plugins
   jenkins:
-    image: jenkins/jenkins:2.107.2
+    image: jenkins/jenkins:2.176
     container_name: jenkins
     depends_on:
       - sonarqube
@@ -62,7 +62,7 @@ services:
     volumes:
      - jenkins_conf:/var/jenkins_home
   artifactory:
-    image: docker.bintray.io/jfrog/artifactory-pro:5.10.4
+    image: docker.bintray.io/jfrog/artifactory-oss:6.11.1
     container_name: artifactory
     depends_on:
       - postgresql_artifactory
